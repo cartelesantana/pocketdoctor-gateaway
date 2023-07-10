@@ -10,6 +10,7 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-weight: 800;
   }
   
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -108,10 +109,6 @@
   /*-- end reset --*/
   body {
     background: white;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #c8d1c3, #0a0250);
-    background: -moz-linear-gradient(to top, #c8d1c3, #04c1fa);
-    background: -o-linear-gradient(to top, var(--color-secondary), #0a0250);
     background: linear-gradient(to top, #04c1fa, #0a0250);
     background-size: cover;
     background-attachment: fixed;
@@ -144,7 +141,7 @@
     padding: 3em;
   }
   
-  input[type="text"], input[type="email"], input[type="password"] {
+  input[type="text"], input[type="email"], input[type="password"],input[type="file"] {
     font-size: 0.9em;
     color: #fff;
     font-weight: 100;
@@ -164,7 +161,7 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  input.email, input.text.w3lpass {
+  input.email, input.text.w3lpass,input.file {
     margin: 2em 0;
   }
   
@@ -212,7 +209,6 @@
     border: 1px solid var(--color-secondary);
     cursor: pointer;
     padding: 0.9em;
-    -webkit-appearance: none;
     width: 100%;
     margin: 2em 0;
     letter-spacing: 4px;
@@ -726,7 +722,9 @@
       width: 89.5%;
       font-size: 0.85em;
     }
-  
+    input[type="file"]{
+  display: none;
+    }
     h1 {
       font-size: 1.7em;
       letter-spacing: 0px;
@@ -758,28 +756,4 @@
     .main-w3layouts {
       padding: 1em 0 0;
     }
-  }
-  label{
-    color:white;
-    font-family: inherit;
-  }
-  select{
-  background-color: #0563af;
-  color: white;
-  padding: 12px;
-  width: 250px;
-  border: none;
-  font-size: 20px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-  -webkit-appearance: button;
-  appearance: button;
-  outline: none;
-  margin-top: 10px;
-  
-  }
-  option{
-    padding: 30px;
-  }
-  option:active{
-    outline: none;
   }
