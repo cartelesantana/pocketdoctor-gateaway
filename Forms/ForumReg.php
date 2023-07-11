@@ -103,7 +103,7 @@
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
                            
-                            <a class="BackToHome" href="../index.html"> Back to Home</a>
+                            <a class="BackToHome" href="../index.php"> Back to Home</a>
                            
                      </div>
                         

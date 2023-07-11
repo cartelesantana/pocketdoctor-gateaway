@@ -59,7 +59,11 @@
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          <a href=""><i class="bi bi-person-circle"> user name</i></a>
+          <a href=""><i class="bi bi-person-circle">
+                  <?php
+                        $savedId=$_GET['id'];
+                  ?>
+              </i></a>
         </div>
       </div>
     </section>
@@ -69,7 +73,7 @@
       <div
         class="container-fluid container-xl d-flex align-items-center justify-content-between"
       >
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1>
@@ -88,20 +92,20 @@
               ></a>
               <ul>
                 <li>
-                  <a href="./secondary pages/about-vision.html">Our Vision</a>
+                  <a href="secondary pages/about-vision.php">Our Vision</a>
                 </li>
                 <li>
-                  <a href="./secondary pages/about-mission.html">Our Mission</a>
+                  <a href="secondary pages/about-mission.php">Our Mission</a>
                 </li>
-                <li><a href="./team.html">Our Team</a></li>
+                <li><a href="team.php">Our Team</a></li>
               </ul>
             </li>
 
             <li><a href="#services">Activities</a></li>
             <li><a href="#portofolio">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog.php">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="Admin/index.html">Admin</a></li>
+            <li><a href="Admin/index.php">Admin</a></li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -124,13 +128,12 @@
             <p>
               Concieve<i class="bi bi-arrow-right"></i>Believe<i
                 class="bi bi-arrow-right"
-              ></i
-              >Achieve
+              ></i>Achieve
             </p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <a href="Forms/signup.html" class="btn-get-started">JOIN US</a>
+              <a href="Forms/signup.php" class="btn-get-started">JOIN US</a>
               <pre>  </pre> 
-              <a href="Forms/login.html" class="btn-get-started">Log In</a>
+              <a href="Forms/login.php" class="btn-get-started">Log In</a>
             </div>
             
           </div>
@@ -189,7 +192,7 @@
                 <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/incubation.html"
+                    href="secondary pages/incubation.php"
                     class="stretched-link"
                     >INCUBATION & ACCELERATION</a
                   >
@@ -212,7 +215,7 @@
                 <div class="icon"><i class="bi bi-book-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/ictTraining.html"
+                    href="secondary pages/ictTraining.php"
                     class="stretched-link"
                     >ICT TRAINING</a
                   >
@@ -234,7 +237,7 @@
                 <div class="icon"><i class="bi bi-people"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/Expertise.html"
+                    href="secondary pages/Expertise.php"
                     class="stretched-link"
                     >EXPERTISE AND ADVICE</a
                   >
@@ -252,7 +255,7 @@
                 <div class="icon"><i class="bi bi-person-lines-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/co-working.html"
+                    href="secondary pages/co-working.php"
                     class="stretched-link"
                     >CO-WORKING SPACE</a
                   >
@@ -469,7 +472,7 @@
                 </div>
                 <h3>DATA ANALYSIS</h3>
                 <a
-                  href="secondary pages/courses/data-analysis.html"
+                  href="secondary pages/courses/data-analysis.php"
                   class="readmore stretched-link"
                   >Read more <i class="bi bi-arrow-right"></i
                 ></a>
@@ -484,7 +487,7 @@
                 </div>
                 <h3>FULLSTACK WEB DEVELOPMENT</h3>
                 <a
-                  href="secondary pages/courses/fullstack.html"
+                  href="secondary pages/courses/fullstack.php"
                   class="readmore stretched-link"
                   >Read more <i class="bi bi-arrow-right"></i
                 ></a>
@@ -499,7 +502,7 @@
                 </div>
                 <h3>GRAPHIC & WEB DESIGN</h3>
                 <a
-                  href="secondary pages/courses/graphic.html"
+                  href="secondary pages/courses/graphic.php"
                   class="readmore stretched-link"
                   >Read more <i class="bi bi-arrow-right"></i
                 ></a>
@@ -514,7 +517,7 @@
                 </div>
                 <h3>LOGICAL THINKING</h3>
                 <a
-                  href="secondary pages/courses/logical.html"
+                  href="secondary pages/courses/logical.php"
                   class="readmore stretched-link"
                   >Read more <i class="bi bi-arrow-right"></i
                 ></a>
@@ -529,7 +532,7 @@
                 </div>
                 <h3>MAINTENANCE & NETWORK</h3>
                 <a
-                  href="secondary pages/courses/maintenance.html"
+                  href="secondary pages/courses/maintenance.php"
                   class="readmore stretched-link"
                   >Read more <i class="bi bi-arrow-right"></i
                 ></a>
@@ -735,7 +738,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
               <span>Ocean Innovation Center</span>
             </a>
             <p>Concieve - Believe - Achieve</p>

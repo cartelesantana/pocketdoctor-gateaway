@@ -17,15 +17,24 @@
 <body>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Login to Ocean Innovation Center</h1>
+		<h1>Sign Up here</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="post">
+				<form action="../Controls/SignUpContol.php" method="post">
 					<input class="text" type="text" name="Username" placeholder="Username" required="">
-					<input class="text email" type="password" name="password" placeholder="Enter your password" required="">
-					<input type="submit" value="Log In">
+					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="password" name="password" placeholder="Password" required="">
+					<input class="text w3lpass" type="password" name="ConfirmPwd" placeholder="Confirm Password" required="">
+					<div class="wthree-text">
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>I Agree To The Terms & Conditions</span>
+						</label>
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="SIGN UP" name="signUp">
 				</form>
-				<p>Don't have an Account? <a href="signup.html"> Sign Up here!</a></p>
+				<p>already have an Account? <a href="login.php"> Login Now!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>OIC / graphic & Web</title>
+  <title>OIC / Data-Analysis</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -36,8 +36,8 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="../../index.html">Home</a></li>
-            <li>Graphic & Web Design</li>
+            <li><a href="../../index.php">Home</a></li>
+            <li>Data Analysis</li>
           </ol>
         </div>
       </nav>
@@ -45,7 +45,7 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-                <h2>Graphic and Web Design Course Pricing</h2>
+                <h2>Data Analysis Course Pricing</h2>
                 <p style="font-weight: 800;"> 
                     <i class="bi bi-bell-fill"></i>
                     to register for this course, go to OIC headquaters based at kribi where you wil recieve your formation 
@@ -66,7 +66,9 @@
                     <div class="pricing-item">
                       <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
                       <h4>
-                        description here !!1
+                        This course will help you to differentiate between the roles of Data Analysts,
+                        Data Scientists, and Data Engineers. You will familiarize yourself with the data ecosystem, alongside Databases,
+                        Data Warehouses, Data Marts, Data Lakes and Data Pipelines
                       </h4>
                     </div>
                 </div>

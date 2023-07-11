@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controls/loginControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Forms/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Forms/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Forms/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Forms/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/js/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/js/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/AddBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/AddBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/addPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/addPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/addUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/addUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/tables/basic-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/tables/basic-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controls/SignUpContol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/ForumReg.html" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/ForumReg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/Expertise.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/Expertise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/about-mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/about-mission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/about-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/about-vision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/co-working.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/co-working.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/data-analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/data-analysis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/fullstack.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/fullstack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/graphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/graphic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/logical.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/logical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/maintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/ictTraining.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/ictTraining.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/incubation.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/incubation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2SQ2mC5K2yACCRGobaAnQDXgNrp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kribi\Controls" />
+      <recent name="C:\xampp\htdocs\kribi" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="" />
+      <created>1689064655803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689064655803</updated>
+      <workItem from="1689064663382" duration="14176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2138" y="8" key="NewPhpClassDialog" timestamp="1689065000699">
+      <screen x="1366" y="-240" width="1920" height="1050" />
+    </state>
+    <state x="2138" y="8" key="NewPhpClassDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689065000699" />
+    <state x="1827" y="-71" key="SettingsEditor" timestamp="1689064934209">
+      <screen x="1366" y="-240" width="1920" height="1050" />
+    </state>
+    <state x="1827" y="-71" key="SettingsEditor/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689064934209" />
+  </component>
+</project>

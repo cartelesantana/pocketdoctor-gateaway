@@ -41,7 +41,6 @@
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet" />
-
   </head>
 
   <body>
@@ -66,14 +65,18 @@
         </div>
       </div>
     </section>
-   
+    <!-- End Top Bar -->
+
+    
+    <!-- End Header -->
+    <!-- End Header -->
     <main id="main">
       <!-- ======= Breadcrumbs ======= -->
       <div class="breadcrumbs">
         <nav>
           <div class="container">
             <ol>
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.php">Home</a></li>
               <li>about : Our Vision</li>
             </ol>
           </div>

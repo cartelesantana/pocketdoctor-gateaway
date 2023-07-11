@@ -17,14 +17,14 @@
 <body>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Sign Up here</h1>
+		<h1>SignUp here</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="../Controls/SignUpContol.php" method="post">
+				<form action="#" method="post">
 					<input class="text" type="text" name="Username" placeholder="Username" required="">
 					<input class="text email" type="email" name="email" placeholder="Email" required="">
 					<input class="text" type="password" name="password" placeholder="Password" required="">
-					<input class="text w3lpass" type="password" name="ConfirmPwd" placeholder="Confirm Password" required="">
+					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
 					<div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" class="checkbox" required="">
@@ -32,9 +32,9 @@
 						</label>
 						<div class="clear"> </div>
 					</div>
-					<input type="submit" value="SIGN UP" name="signUp">
+					<input type="submit" value="SIGNUP">
 				</form>
-				<p>already have an Account? <a href="login.html"> Login Now!</a></p>
+				<p>already have an Account? <a href="login.php"> Login Now!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

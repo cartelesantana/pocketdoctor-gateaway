@@ -49,7 +49,7 @@
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="../index.html" class="logo d-flex align-items-center">
+      <a href="../index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1><span><img src="../assets/img/logo.PNG" alt="Logo" class="logoIMG"/></span></h1>
@@ -75,8 +75,8 @@
         <nav>
             <div class="container">
               <ol>
-                <li><a href="../index.html">Home</a></li>
-                <li>Co-Working</li>
+                <li><a href="../index.php">Home</a></li>
+                <li>ICT training</li>
               </ol>
             </div>
           </nav>
@@ -84,8 +84,8 @@
           <div class="container position-relative">
             <div class="row d-flex justify-content-center">
               <div class="col-lg-6 text-center">
-                <h2>Co-Working Space</h2>
-                <p>we provide confortable workong enironments for people wishing to seat together and bring out ideas and solutions.</p>
+                <h2>ICT training</h2>
+                <p>We provide ICT formations to youths</p>
               </div>
             </div>
           </div>

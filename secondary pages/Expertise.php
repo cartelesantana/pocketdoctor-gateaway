@@ -49,7 +49,7 @@
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="../index.html" class="logo d-flex align-items-center">
+      <a href="../index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1><span><img src="../assets/img/logo.PNG" alt="Logo" class="logoIMG"/></span></h1>
@@ -75,8 +75,8 @@
         <nav>
             <div class="container">
               <ol>
-                <li><a href="../index.html">Home</a></li>
-                <li>Incubation & Acceleration</li>
+                <li><a href="../index.php">Home</a></li>
+                <li>Expertise & Advice</li>
               </ol>
             </div>
           </nav>
@@ -84,8 +84,8 @@
           <div class="container position-relative">
             <div class="row d-flex justify-content-center">
               <div class="col-lg-6 text-center">
-                <h2>Incubation & Acceleration</h2>
-                <p>in our incubation process, we provide start-ups and early-storage businesses with the support and ressource the don't have access to.</p>
+                <h2>Expertise & Advice</h2>
+                <p>We provide expert point of views to young entrepreneurs based on our long Experience in the ICT domains</p>
               </div>
             </div>
           </div>

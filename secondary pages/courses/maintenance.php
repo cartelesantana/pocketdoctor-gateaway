@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>OIC / logical thinking</title>
+  <title>OIC / Maintenance</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -36,8 +36,8 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="../../index.html">Home</a></li>
-            <li>Logical Thinking</li>
+            <li><a href="../../index.php">Home</a></li>
+            <li>Maintenance $ NETWORK</li>
           </ol>
         </div>
       </nav>
@@ -45,7 +45,7 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-                <h2>Logica Thinking Course Pricing</h2>
+                <h2>Maintenance and Networking Course Pricing</h2>
                 <p style="font-weight: 800;"> 
                     <i class="bi bi-bell-fill"></i>
                     to register for this course, go to OIC headquaters based at kribi where you wil recieve your formation 
@@ -66,8 +66,8 @@
                     <div class="pricing-item">
                       <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
                       <h4>
-                        Description Here !!
-                    </h4>
+                        enter description over here!!
+                      </h4>
                     </div>
                 </div>
             </div>

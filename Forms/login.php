@@ -17,15 +17,15 @@
 <body>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Login to Ocean Innovation Center</h1>
+		<h1>Log In to Ocean Innovation Center</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="post">
+				<form action="../Controls/loginControl.php" method="post">
 					<input class="text" type="text" name="Username" placeholder="Username" required="">
 					<input class="text email" type="password" name="password" placeholder="Enter your password" required="">
-					<input type="submit" value="Log In">
+					<input type="submit" value="Log In" name="signUp">
 				</form>
-				<p>Don't have an Account? <a href="signup.html"> Sign Up here!</a></p>
+				<p>Don't have an Account? <a href="signup.php"> Sign Up here!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

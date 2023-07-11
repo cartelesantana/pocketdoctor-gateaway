@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>About: Vision</title>
+    <title>OIC / Team</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="../assets/img/logo.PNG" rel="icon" />
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/logo.PNG" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,25 +22,20 @@
 
     <!-- Vendor CSS Files -->
     <link
-      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="../assets/vendor/glightbox/css/glightbox.min.css"
+      href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link
-      href="../assets/vendor/swiper/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/main.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -62,22 +57,19 @@
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href=""><i class="bi bi-person-circle"> user name</i></a>
         </div>
       </div>
     </section>
-    <!-- End Top Bar -->
 
-    
-    <!-- End Header -->
-    <!-- End Header -->
     <main id="main">
       <!-- ======= Breadcrumbs ======= -->
       <div class="breadcrumbs">
         <nav>
           <div class="container">
             <ol>
-              <li><a href="../index.html">Home</a></li>
-              <li>about : Our Vision</li>
+              <li><a href="index.php">Home</a></li>
+              <li>Team</li>
             </ol>
           </div>
         </nav>
@@ -88,10 +80,7 @@
           <div class="container position-relative">
             <div class="row d-flex justify-content-center">
               <div class="col-lg-6 text-center">
-                <h2>About Us : Our Vision</h2>
-                <p>
-                  
-                </p>
+                <h2>Our Team</h2>
               </div>
             </div>
           </div>
@@ -101,18 +90,36 @@
 
       <section class="sample-page">
         <div class="container" data-aos="fade-up">
-          <p></p>
+          <div class="row gy-4">
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <img src="assets/img/team/1.jpeg" class="img-fluid" alt="" />
+                <h4>Name</h4>
+                <span>Role</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer" style="position: absolute; width: 100%; bottom: 0; height: 250px;">
+    <footer id="footer" class="footer">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
               <span>Ocean Innovation Center</span>
             </a>
             <p>Concieve - Believe - Achieve</p>
@@ -180,14 +187,15 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/aos/aos.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
     <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -25,7 +25,7 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/logo.PNG" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="images/logo.PNG" class="mr-2" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -59,7 +59,7 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="index.php">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -72,8 +72,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/Post.html">All Posts</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/addPost.html">Add A Post</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/Post.php">All Posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/addPost.php">Add A Post</a></li>
               </ul>
             </div>
           </li>
@@ -85,7 +85,7 @@
             </a>
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/AddBlog.html">Add A blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/AddBlog.php">Add A blog</a></li>
               </ul>
             </div>
           </li>
@@ -109,7 +109,7 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/addUser.html"> Add User </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/addUser.php"> Add User </a></li>
               </ul>
             </div>
           </li>
