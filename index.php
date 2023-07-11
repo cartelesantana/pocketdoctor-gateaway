@@ -42,78 +42,11 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <section id="topbar" class="topbar d-flex align-items-center">
-      <div
-        class="container d-flex justify-content-center justify-content-md-between"
-      >
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"
-            ><a href="mailto:contact@example.com">contact@oickribi.com</a></i
-          >
-          <i class="bi bi-phone d-flex align-items-center ms-4"
-            ><span>(+237) 690 08 91 56</span></i
-          >
-        </div>
-        <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          <a href=""><i class="bi bi-person-circle">
-                  <?php
-                        $savedId=$_GET['id'];
-                  ?>
-              </i></a>
-        </div>
-      </div>
-    </section>
+<?php include ('basicStructures/head.php');?>
     <!-- End Top Bar -->
 
-    <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <a href="index.php" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>
-            <span
-              ><img src="assets/img/logo.PNG" alt="Logo" class="logoIMG"
-            /></span>
-          </h1>
-        </a>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li class="dropdown">
-              <a href="#about"
-                ><span>About</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li>
-                  <a href="secondary pages/about-vision.php">Our Vision</a>
-                </li>
-                <li>
-                  <a href="secondary pages/about-mission.php">Our Mission</a>
-                </li>
-                <li><a href="team.php">Our Team</a></li>
-              </ul>
-            </li>
-
-            <li><a href="#services">Activities</a></li>
-            <li><a href="#portofolio">Gallery</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="Admin/index.php">Admin</a></li>
-          </ul>
-        </nav>
-        <!-- .navbar -->
-
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      </div>
-    </header>
+    <?php  include('basicStructures/secondTopBar.php')?>
+    
     <!-- End Header -->
     <!-- End Header -->
 
@@ -613,187 +546,15 @@
       <!-- ======= Testimonials Section ======= -->
 
       <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Contact</h2>
-            <p>Sign Us To Our And Send Us A Review</p>
-          </div>
-
-          <div class="row gx-lg-0 gy-4">
-            <div class="col-lg-4">
-              <div
-                class="info-container d-flex flex-column align-items-center justify-content-center"
-              >
-                <div class="info-item d-flex">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h4>Location:</h4>
-                    <p>Kribi,derriere la mairie de kribi premier.</p>
-                    <p>Douala, Bonamoussadi,vallee commissariat.</p>
-                    <p>Bafoussam,immeuble interministeriel</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="info-item d-flex">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h4>Email:</h4>
-                    <p>Contact@oickribi.com</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="info-item d-flex">
-                  <i class="bi bi-phone flex-shrink-0"></i>
-                  <div>
-                    <h4>Call:</h4>
-                    <p>+237 690 08 91 56</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="info-item d-flex">
-                  <i class="bi bi-clock flex-shrink-0"></i>
-                  <div>
-                    <h4>Open Hours:</h4>
-                    <p>Mon-Fri: 8AM - 4PM</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-              </div>
-            </div>
-
-            <div class="col-lg-8">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="7"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
-          </div>
-        </div>
-      </section>
+      <?php include('basicStructures/contact.php'); ?>
       <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.php" class="logo d-flex align-items-center">
-              <span>Ocean Innovation Center</span>
-            </a>
-            <p>Concieve - Believe - Achieve</p>
-            <div class="social-links d-flex mt-4">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Quick links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Incubation and acceleration</a></li>
-              <li><a href="#">ICT training</a></li>
-              <li><a href="#">Advice and Expertise</a></li>
-              <li><a href="#">Co-Working SPACE</a></li>
-            </ul>
-          </div>
-
-          <div
-            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
-          >
-            <h4>Contact Us</h4>
-            <p>
-              Kribi <br />
-              derriere la Mairie de <br />
-              Kribi 1er <br /><br />
-              <strong>Phone:</strong> +237 690 08 91 56<br />
-              <strong>Email:</strong> contact@oickribi.com<br />
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mt-4">
-        <div class="copyright">
-          &copy; Copyright
-          <strong><span>2023 Ocean innovation center (OIC) </span></strong>. All
-          Rights Reserved
-        </div>
-      </div>
-    </footer>
+    <?php 
+      include ('basicStructures/footer.php');
+    ?>
     <!-- End Footer -->
     <!-- End Footer -->
 
