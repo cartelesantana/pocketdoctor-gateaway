@@ -33,10 +33,9 @@
             </li>
 
             <li><a href="#services">Activities</a></li>
-            <li><a href="#portofolio">Gallery</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="#portofolio">Forum</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="Admin/index.php">Admin</a></li>
+            <li><a href="Forms/adminLogin.php">Admin</a></li>
           </ul>
         </nav>
         <!-- .navbar -->

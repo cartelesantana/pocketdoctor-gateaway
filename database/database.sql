@@ -1,6 +1,7 @@
 /* database name: oicData */
 create table Admin(
     AdmId int auto_increment primary key,
+    adminName varchar(50),
     AdmPassword varchar(50));
 
 create table Blog(

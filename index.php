@@ -63,20 +63,8 @@
                     style="height: 500px; width: 740px"
                   />
                 </div>
-                <div class="swiper-slide">
-                  <img
-                    src="assets/img/3.png"
-                    alt=""
-                    style="height: 500px; width: 740px"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="assets/img/oickribi.jpg"
-                    alt=""
-                    style="height: 500px; width: 740px"
-                  />
-                </div>
+                
+              
               </div>
               <div class="swiper-pagination"></div>
               <div class="swiper-button-prev"></div>
@@ -273,9 +261,7 @@
                   class="img-fluid"
                 />
               </div>
-              <div class="swiper-slide">
-                <img src="assets/img/cncc.png" alt="CNCC" class="img-fluid" />
-              </div>
+           
             </div>
           </div>
         </div>
