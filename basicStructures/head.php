@@ -18,11 +18,37 @@
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          <a href=""><i class="bi bi-person-circle">
+          <a href="">
+              <i class="bi bi-person-circle">
                   <?php
-                        $savedId=$_GET['id'];
+                    if(isset($_GET['id'])){
+                        $servername = "localhost";
+                        $DbUser = "root";
+                        $DbPwd = "";
+                        $dbname = "oicData";
+                        try {
+                            $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
+                            if ($conn->connect_error) {
+                                die("Connection failed: " . $conn->connect_error);
+                            }else{
+                                $id=$_GET['id'];
+                                $query="select username from users where id= '$id'";
+                                $userName=$conn->query($query);
+                                if ($userName){
+                                    if (mysqli_num_rows($userName) >0 ){
+                                        $result=$userName->fetch_assoc();
+                                        $resultName=$result['username'];
+                                        echo $resultName;
+                                    }
+                                }
+                            }
+                        }catch (Exception $e){
+                            echo "you have an error of type ".$e->getMessage();
+                        }
+                    }else echo " ";
                   ?>
-              </i></a>
+              </i>
+          </a>
         </div>
       </div>
     </section>
