@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controls/sendMailControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controls/loginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/loginControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controls/signUpControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/signUpControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forms/adminLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/adminLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forms/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/head.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kribi\basicStructures" />
       <recent name="C:\xampp\htdocs\kribi\Controls" />
       <recent name="C:\xampp\htdocs\kribi" />
     </key>
@@ -69,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689064655803</updated>
       <workItem from="1689064663382" duration="22539000" />
-      <workItem from="1689165526867" duration="3760000" />
+      <workItem from="1689165526867" duration="5956000" />
     </task>
     <servers />
   </component>
@@ -93,10 +89,10 @@
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
     <state x="2138" y="8" key="NewPhpClassDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689065000699" />
-    <state x="2160" y="208" key="NewPhpFileDialog" timestamp="1689147679560">
+    <state x="2160" y="208" key="NewPhpFileDialog" timestamp="1689170538712">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
-    <state x="2160" y="208" key="NewPhpFileDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689147679560" />
+    <state x="2160" y="208" key="NewPhpFileDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689170538712" />
     <state x="1827" y="-71" key="SettingsEditor" timestamp="1689064934209">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
