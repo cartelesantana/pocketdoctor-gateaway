@@ -22,7 +22,6 @@
     
     <!-- End Header -->
     <!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero">
       <div class="container position-relative">
@@ -443,35 +442,64 @@
             <h2>Recent Blog Posts</h2>
           </div>
 
-          <div class="row gy-4">
-            <div class="col-xl-4 col-md-6">
-              <article>
-                <div class="post-img">
+          
+              <?php
+              
+                $servername = "localhost";
+                $DbUser = "root";
+                $DbPwd = "";
+                $dbname = "oicData";
+                try {
+                  $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
+      
+                  if ($conn->connect_error) {
+                      die("Connection failed: " . $conn->connect_error);
+                  }else{
+            
+                      $query="select * from blog";
+                      $blog=$conn->query($query);
+                      $result=$blog->fetch_assoc();
+                      if($result){ 
+                        $i = mysqli_num_rows($blog);
+                        while ($i>0){
+                          echo "
+                          <div class='row gy-4'>
+                          <div class='col-xl-4 col-md-6'>
+                           <article>
+                <div class='post-img'>
                   <img
-                    src="assets/img/blog/cta-bg.jpg"
-                    alt=""
-                    class="img-fluid"
+                    src=Admin/Controls/$result[picture]
+                    class='img-fluid'
+                    style='width: 100%;height:100px'
                   />
                 </div>
 
-                <p class="post-category">Subject</p>
+                <p class='post-category'>$result[subject]</p>
 
-                <h2 class="title">
-                  <a href="blog-details.html">link</a>
+                <h2 class='title'>
+                  <a href='blog-details.html'>$result[link]</a>
                 </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Author</p>
-                    <p class="post-date">date</p>
+                  <div class='post-meta'>
+                    <p class='post-author'>$result[link]</p>
                   </div>
                 </div>
               </article>
+              </div>
+              </div>
+                          
+                          ";
+                          $i--;
+                        }
+                       } 
+                      }
+                      
+                }catch (Exception $e){
+                  echo $e->getTrace();
+              }
+              ?>
+            <!--
+            
+-->
             </div>
             <!-- End post list item -->
           </div>

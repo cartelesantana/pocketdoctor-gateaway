@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>[Template] Sample Inner Page</title>
+  <title>Co-Working</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,7 +41,7 @@
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-        <a href=""><i class="bi bi-person-circle"> user name</i></a>
+       
       </div>
     </div>
   </section><!-- End Top Bar -->

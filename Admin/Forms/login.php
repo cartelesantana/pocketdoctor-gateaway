@@ -25,7 +25,6 @@
 					<input class="text email" type="password" name="password" placeholder="Enter your password" required="">
 					<input type="submit" value="Log In">
 				</form>
-				<p>Don't have an Account? <a href="signup.php"> Sign Up here!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

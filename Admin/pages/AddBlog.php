@@ -20,13 +20,14 @@
 		<h1>Add A New Blog</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="post">
+				<form action="../Controls/AddBlogControl.php" method="post" enctype="multipart/form-data">
 					<input class="text" type="text" name="BlogType" placeholder="What type of blog is it??" required="">
-					<input class="text email" type="text" name="BlogLink" placeholder="link of Blog">
-					<input class="text" type="text" name="BlogAuthor" placeholder="Who is the author?">
+					<input class="text email" type="text" name="BlogLink" placeholder="link of Blog" required>
+					<input class="text" type="text" name="BlogAuthor" placeholder="Who is the author?" required>
+					<input class="text" type="file" name="BlogPicture" required>
 					<div class="wthree-text">
 					</div>
-					<input type="submit" value="ADD">
+					<input type="submit" name='AddBlog'value="ADD">
 				</form>
 			</div>
 		</div>
