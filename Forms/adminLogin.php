@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>admin log-in</title>
+<title>Admin|Log-in</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -17,7 +17,7 @@
 <body>
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
-		<h1>Admin Log In</h1>
+		<h1>Log-In to Admin Dashboard </h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
 				<form action="../Controls/adminLoginControl.php" method="post">
@@ -25,7 +25,7 @@
 					<input class="text email" type="password" name="password" placeholder="Enter your password" required="">
 					<input type="submit" value="Log In" name="signUp">
 				</form>
-			
+				<p>Don't have an Account? <a href="signup.php"> Sign Up here!</a></p>
 			</div>
 		</div>
 		<!-- copyright -->

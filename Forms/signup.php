@@ -20,7 +20,7 @@
 		<h1>Sign Up here</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="../Controls/SignUpContol.php" method="post">
+				<form action="../Controls/signUpControl.php" method="post">
 					<input class="text" type="text" name="Username" placeholder="Username" required="">
 					<input class="text email" type="email" name="email" placeholder="Email" required="">
 					<input class="text" type="password" name="password" placeholder="Password" required="">
