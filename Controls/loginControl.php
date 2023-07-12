@@ -5,7 +5,7 @@
         $DbPwd = "";
         $dbname = "oicData";
         $username=$_POST['Username'];
-        $password=$_POST['password'];
+        $pass=$_POST['password'];
         //connect to database using Mysqli method
         try {
             $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
@@ -20,23 +20,30 @@
                 if($user){
                     if(mysqli_num_rows($user) > 0){
                         $result = $user -> fetch_assoc();
-                        if($password == $result['pwd']){
+                        if(password_verify($pass,$result['pwd'])){
                             $UserId=$result['id'];
                             header("location:../index.php?id=$UserId");
                         }else{
+
                             echo "
                                 <script> 
-                                    alert('Login Error');
+                                    alert('password is wrong');
                                     window.location.replace('../Forms/login.php');
                                 </script>
                             ";
-                            $conn->close();
+
                         }
-                    }else echo "not found";
+                    }else echo "
+                                <script> 
+                                    alert('User does not exist');
+                                    window.location.replace('../Forms/login.php');
+                                </script>
+                    ";
                 }else{
                     echo "we had a problem";
                 }
             }
+            $conn->close();
         }catch (Exception $e){
             echo $e->getTrace();
         }
