@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controls/sendMailControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Controls/BlogImages/1644236531638-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Controls/BlogImages/1648046993894.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controls/adminLoginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/adminLoginControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controls/loginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/loginControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +56,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kribi" />
       <recent name="C:\xampp\htdocs\kribi\basicStructures" />
       <recent name="C:\xampp\htdocs\kribi\Controls" />
-      <recent name="C:\xampp\htdocs\kribi" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689064655803</updated>
       <workItem from="1689064663382" duration="22539000" />
-      <workItem from="1689165526867" duration="5956000" />
+      <workItem from="1689165526867" duration="6247000" />
+      <workItem from="1689232607856" duration="3641000" />
     </task>
     <servers />
   </component>
