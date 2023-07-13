@@ -55,7 +55,7 @@
             </li>
 
             <li><a href="index.php#services">Activities</a></li>
-            <li><a href="../../forum.php">Forum</a></li>
+            <li><a href="#">Forum</a></li>
             <li><a href="index.php#contact">Contact</a></li>
             <li><a href="Forms/adminLogin.php">Admin</a></li>
           </ul>
