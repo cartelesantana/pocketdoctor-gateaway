@@ -19,7 +19,7 @@ if(isset($_POST['AddBlog'])){
             $blglink = $_POST['BlogLink'];
             $blgauthor = $_POST['BlogAuthor'];
 
-            $target_dir = "BlogImages/";
+            $target_dir = "../../BlogImages/";
             $target_file = $target_dir . basename($_FILES["BlogPicture"]["name"]);
             $uploadOk = 1;
             $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
@@ -36,7 +36,7 @@ if(isset($_POST['AddBlog'])){
                 exit;
             }
             $blogId = uniqid();
-            $location = "BlogImages/" . $files;
+            $location = $target_dir. $files;
             $sqli = "INSERT INTO blog (id, subject,link,author,picture) VALUES (?,?,?,?,?)";
             $stmt = $conn->prepare($sqli);
             $stmt->bind_param('sssss', $blogId, $blgtype, $blglink, $blgauthor, $location);

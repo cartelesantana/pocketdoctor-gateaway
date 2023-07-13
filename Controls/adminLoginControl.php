@@ -15,7 +15,7 @@
             }else{
                 session_start();
 
-                $query="select * from admin where adminName=  '$adminName'";
+                $query="select * from admin where admname=  '$adminName'";
                 $user=$conn->query($query);
                 if($user){
                     if(mysqli_num_rows($user) > 0){

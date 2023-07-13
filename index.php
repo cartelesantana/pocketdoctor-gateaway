@@ -441,7 +441,7 @@
           <div class="section-header">
             <h2>Recent Blog Posts</h2>
           </div>
-
+    <a href="BlogImages/Flyer.png">image</a>
           
               <?php
               
@@ -462,25 +462,27 @@
                       if($result){ 
                         $i = mysqli_num_rows($blog);
                         while ($i>0){
+                            echo $result[picture];
                           echo "
                           <div class='row gy-4'>
                           <div class='col-xl-4 col-md-6'>
                            <article>
                 <div class='post-img'>
+                <a href=/kribi/>image</a>
                   <img
-                    src=Admin/Controls/$result[picture]
+                    src=$result[picture]
                     class='img-fluid'
                     style='width: 100%;height:100px'
                   />
                 </div>
 
-                <p class='post-category'>$result[subject]</p>
+                <p class='post-category'>subject: $result[subject]</p>
 
                 <h2 class='title'>
-                  <a href='blog-details.html'>$result[link]</a>
+                  <a href='blog-details.html'>link: $result[link]</a>
                 </h2>
                   <div class='post-meta'>
-                    <p class='post-author'>$result[link]</p>
+                    <p class='post-author'>author: $result[author]</p>
                   </div>
                 </div>
               </article>
