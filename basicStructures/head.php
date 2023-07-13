@@ -14,10 +14,10 @@
           >
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
-            <a href="https://www.twitter.com/oicpole" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/oicpole" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/oipole" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://cm.linkedin.com/company/oicpole" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.twitter.com/oicpole"  target="_blank"class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/oicpole"  target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/oipole"  target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://cm.linkedin.com/company/oicpole" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
             <pre>  </pre>
             <i class="bi bi-person-circle">
                   <?php
