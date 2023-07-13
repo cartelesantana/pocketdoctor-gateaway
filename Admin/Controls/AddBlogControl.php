@@ -19,8 +19,8 @@ if(isset($_POST['AddBlog'])){
             $blglink = $_POST['BlogLink'];
             $blgauthor = $_POST['BlogAuthor'];
 
-            $target_dir = "../../BlogImages/";
-            $target_file = $target_dir . basename($_FILES["BlogPicture"]["name"]);
+            $target_dir = "BlogImages/";
+            $target_file = '../../'.$target_dir . basename($_FILES["BlogPicture"]["name"]);
             $uploadOk = 1;
             $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 

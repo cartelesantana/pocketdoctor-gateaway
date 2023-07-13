@@ -73,10 +73,6 @@
             </ol>
           </div>
         </nav>
-        <div
-          class="page-header d-flex align-items-center"
-          style="background-image: url('')"
-        >
           <div class="container position-relative">
             <div class="row d-flex justify-content-center">
               <div class="col-lg-6 text-center">
@@ -87,29 +83,50 @@
         </div>
       </div>
       <!-- End Breadcrumbs -->
-
       <section class="sample-page">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <div
-              class="col-xl-3 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
-                <img src="assets/img/team/1.jpeg" class="img-fluid" alt="" />
-                <h4>Name</h4>
-                <span>Role</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+          <div >
+              <div class='row' data-aos='fade-up' data-aos-delay='100'>
+                  <?php
+                  $servername = "localhost";
+                  $DbUser = "root";
+                  $DbPwd = "";
+                  $dbname = "oicData";
+                  try {
+                      $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
+                      if ($conn->connect_error) {
+                          die("Connection failed: " . $conn->connect_error);
+                      }else{
+                          $query="select * from members";
+                          $member=$conn->query($query);
+                          $result=$member->fetch_assoc();
+                          if($result){
+                              $i = mysqli_num_rows($member);
+                              while ($i>0){
+                                  echo "
+                        <div class='col-md-2 col-md-2' style='text-align: center'>
+                  <img src=$result[useProfile] class='img-fluid' style='width: 90%;height:230px'/>
+                    
+                <p class='post-category'><b>$result[userName]</b></p>
+                <p class='post-category'><b>$result[role]</b></p>
+                <p class='post-category'><a href=https://www.google.com/$result[userMail]>$result[userMail]</a></p>
+                <p>
+                    <a href=https://www.$result[fblink]><i class='bi bi-facebook'></i></a>
+                    <a href=https://www.$result[twtlink]><i class='bi bi-twitter'></i></a>
+                    <a href=https://www.$result[Lkdlink]><i class='bi bi-linkedin'></i></a>
+                </p>
+                 
+               
+                  </div>
+                          ";
+                                  $i--;
+                              }
+                          }
+                      }
+                  }catch (Exception $e){ print $e->getMessage();}
+                  ?>
+
               </div>
-            </div>
           </div>
-        </div>
       </section>
     </main>
     <!-- End #main -->

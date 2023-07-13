@@ -1928,9 +1928,12 @@ section {
   font-size: 24px;
 }
 
-.hero .icon-box .title a {
-  color: #fff;
+.hero .icon-box .title {
+  color: #fff !important;
   transition: 0.3s;
+}
+h4{
+  color:white;
 }
 
 .hero .icon-box .icon {

@@ -20,18 +20,17 @@
 		<h1>Register a New Member</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="post">
+				<form action="../Controls/AddUserControl.php" method="post" enctype="multipart/form-data">
 					<input class="text" type="text" name="Name" placeholder="Enter the Name" required="">
-					<input class="text email" type="text" name="Username" placeholder="email Adress" required="">
-					<input class="text" type="password" name="UserPwd" placeholder="create password" required="">
-					<input class="text" type="password" name="ConfirmPwd" placeholder="Confirm password" required="">
-					<input class="file" type="file" name="UserProfile">
-					<input class="text" type="text" name="UserFb" placeholder="Facebook profile (optional)" required="">
-					<input class="text" type="text" name="UserTwt" placeholder="Twitter profile (optional)" required="">
-					<input class="text" type="text" name="UserLkn" placeholder="LinkedIn profile (optional)" required="">
+                    <input class="text" type="email" name="Email" placeholder="Enter emailAdress" required="">
+                    <input class="text email" type="text" name="Role" placeholder="what is the members role" required="">
+					<input class="file" type="file" name="MbrProfile">
+					<input type="text" name="UserFb" placeholder="Facebook profile (optional)">
+					<input type="text" name="UserTwt" placeholder="Twitter profile (optional)" >
+					<input type="text" name="UserLkn" placeholder="LinkedIn profile (optional)" >
 					<div class="wthree-text">
 					</div>
-					<input type="submit" value="ADD">
+					<input type="submit" name="AddMbr"value="ADD">
 				</form>
 			</div>
 		</div>

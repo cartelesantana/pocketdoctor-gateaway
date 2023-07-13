@@ -84,11 +84,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
                 <h4 class="title">
-                  <a
-                    href="secondary pages/incubation.php"
-                    class="stretched-link"
-                    >INCUBATION & ACCELERATION</a
-                  >
+                  INCUBATION & ACCELERATION
                 </h4>
                 <h7
                   >in our incubation process, we provide start-ups and
@@ -107,11 +103,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-book-fill"></i></div>
                 <h4 class="title">
-                  <a
-                    href="secondary pages/ictTraining.php"
-                    class="stretched-link"
-                    >ICT TRAINING</a
-                  >
+                  ICT TRAINING
                 </h4>
                 <h7>in our mission to transmit knowledge throught training in
                   emerging technologies, we provide initial and ongoing training
@@ -129,11 +121,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-people"></i></div>
                 <h4 class="title">
-                  <a
-                    href="secondary pages/Expertise.php"
-                    class="stretched-link"
-                    >EXPERTISE AND ADVICE</a
-                  >
+                  EXPERTISE AND ADVICE
                 </h4>
               </div>
             </div>
@@ -147,11 +135,8 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-person-lines-fill"></i></div>
                 <h4 class="title">
-                  <a
-                    href="secondary pages/co-working.php"
-                    class="stretched-link"
-                    >CO-WORKING SPACE</a
-                  >
+                  CO-WORKING SPACE
+
                 </h4>
               </div>
             </div>
@@ -441,64 +426,48 @@
           <div class="section-header">
             <h2>Recent Blog Posts</h2>
           </div>
-    <a href="BlogImages/Flyer.png">image</a>
-          
+
+                <div >
+                    <div class='row' data-aos='fade-up' data-aos-delay='100'>
+
               <?php
-              
                 $servername = "localhost";
                 $DbUser = "root";
                 $DbPwd = "";
                 $dbname = "oicData";
                 try {
                   $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
-      
                   if ($conn->connect_error) {
                       die("Connection failed: " . $conn->connect_error);
                   }else{
-            
                       $query="select * from blog";
                       $blog=$conn->query($query);
                       $result=$blog->fetch_assoc();
-                      if($result){ 
+                      if($result){
                         $i = mysqli_num_rows($blog);
                         while ($i>0){
-                            echo $result[picture];
                           echo "
-                          <div class='row gy-4'>
-                          <div class='col-xl-4 col-md-6'>
-                           <article>
-                <div class='post-img'>
-                <a href=/kribi/>image</a>
-                  <img
-                    src=$result[picture]
-                    class='img-fluid'
-                    style='width: 100%;height:100px'
-                  />
-                </div>
-
+                        <div class='col-md-3 col-md-' >
+                  <img src=$result[picture] class='img-fluid' style='width: 100%;height:230px'/>
                 <p class='post-category'>subject: $result[subject]</p>
 
                 <h2 class='title'>
-                  <a href='blog-details.html'>link: $result[link]</a>
+                  <a href=https://www.$result[link]>link: $result[link] </a>
                 </h2>
                   <div class='post-meta'>
                     <p class='post-author'>author: $result[author]</p>
                   </div>
-                </div>
-              </article>
-              </div>
-              </div>
-                          
+                  </div>
                           ";
                           $i--;
                         }
-                       } 
+                       }
                       }
-                      
-                }catch (Exception $e){
-                  echo $e->getTrace();
-              }
+                }catch (Exception $e){ print $e->getMessage();}
               ?>
+
+                </div>
+            </div>
             <!--
             
 -->
