@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Admin/Controls/AddUserControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/pages/addUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/addUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogImages/Flyer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forms/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,7 @@
       <updated>1689064655803</updated>
       <workItem from="1689064663382" duration="22539000" />
       <workItem from="1689165526867" duration="6247000" />
-      <workItem from="1689232607856" duration="14887000" />
+      <workItem from="1689232607856" duration="15799000" />
     </task>
     <servers />
   </component>
