@@ -146,15 +146,7 @@
             </div><!-- End post author -->
 
             <div class="comments">
-
-              
-
-        
-
-           
-
-
-            
+    <!--reply form starts here-->
 
               <div class="reply-form">
 

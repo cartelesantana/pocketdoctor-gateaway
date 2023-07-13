@@ -85,7 +85,7 @@
                 <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/incubation.php"
+                  
                     class="stretched-link"
                     >INCUBATION & ACCELERATION</a
                   >
@@ -108,7 +108,7 @@
                 <div class="icon"><i class="bi bi-book-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/ictTraining.php"
+                    
                     class="stretched-link"
                     >ICT TRAINING</a
                   >
@@ -130,7 +130,7 @@
                 <div class="icon"><i class="bi bi-people"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/Expertise.php"
+       
                     class="stretched-link"
                     >EXPERTISE AND ADVICE</a
                   >
@@ -148,7 +148,7 @@
                 <div class="icon"><i class="bi bi-person-lines-fill"></i></div>
                 <h4 class="title">
                   <a
-                    href="secondary pages/co-working.php"
+              
                     class="stretched-link"
                     >CO-WORKING SPACE</a
                   >
