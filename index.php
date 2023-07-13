@@ -84,7 +84,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
                 <h4 class="title">
-                  INCUBATION & ACCELERATION
+                  <a
+                    href="secondary pages/incubation.php"
+                    class="stretched-link"
+                    >INCUBATION & ACCELERATION</a
+                  >
                 </h4>
                 <h7
                   >in our incubation process, we provide start-ups and
@@ -103,7 +107,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-book-fill"></i></div>
                 <h4 class="title">
-                  ICT TRAINING
+                  <a
+                    href="secondary pages/ictTraining.php"
+                    class="stretched-link"
+                    >ICT TRAINING</a
+                  >
                 </h4>
                 <h7>in our mission to transmit knowledge throught training in
                   emerging technologies, we provide initial and ongoing training
@@ -121,7 +129,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-people"></i></div>
                 <h4 class="title">
-                  EXPERTISE AND ADVICE
+                  <a
+                    href="secondary pages/Expertise.php"
+                    class="stretched-link"
+                    >EXPERTISE AND ADVICE</a
+                  >
                 </h4>
               </div>
             </div>
@@ -135,8 +147,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-person-lines-fill"></i></div>
                 <h4 class="title">
-                  CO-WORKING SPACE
-
+                  <a
+                    href="secondary pages/co-working.php"
+                    class="stretched-link"
+                    >CO-WORKING SPACE</a
+                  >
                 </h4>
               </div>
             </div>

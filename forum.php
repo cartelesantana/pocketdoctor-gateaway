@@ -17,31 +17,65 @@
 
   </body>
 
-     <!-- ======= Header ======= -->
-<?php include ('basicStructures/head.php');?>
+    <!-- ======= Header ======= -->
+    <!-- ======= top bar ======= -->
+    <?php include ('basicStructures/head.php');?>
     <!-- End Top Bar -->
+  <!--header starts here-->
+<header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.php" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>
+            <span
+              ><img src="assets/img/logo.PNG" alt="Logo" class="logoIMG"
+            /></span>
+          </h1>
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li class="dropdown">
+              <a href="index.php#about"
+                ><span>About</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="secondary pages/about-vision.php">Our Vision</a>
+                </li>
+                <li>
+                  <a href="secondary pages/about-mission.php">Our Mission</a>
+                </li>
+                <li><a href="team.php">Our Team</a></li>
+              </ul>
+            </li>
 
-    <?php  include('basicStructures/secondTopBar.php')?>
-    
-    <!-- End Header -->
+            <li><a href="index.php#services">Activities</a></li>
+            <li><a href="../../forum.php">Forum</a></li>
+            <li><a href="index.php#contact">Contact</a></li>
+            <li><a href="Forms/adminLogin.php">Admin</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      </div>
+    </header>
+    <!--header ends here-->
 
 
  <!-- ======= Breadcrumbs ======= -->
  <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('');">
-        <div class="container position-relative">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-6 text-center">
-              <h2>Forum  Details</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <nav>
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>Forum</li>
           </ol>
         </div>
@@ -63,7 +97,7 @@
                 <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
               </div>
 
-              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+              <h2 class="title">Forum Details</h2>
 
               <div class="meta-top">
                 <ul>
@@ -146,15 +180,7 @@
             </div><!-- End post author -->
 
             <div class="comments">
-
-              
-
-        
-
-           
-
-
-            
+    <!--reply form starts here-->
 
               <div class="reply-form">
 
@@ -180,11 +206,11 @@
                  
                     <div class="row">
                     <div class="col form-group">
-                      <p>Please select your implication</p>
+                      <!-- <p>Please select your implication</p>
   <input type="radio" id="" name="role1" value="role1">
   <label for="role1">role1</label><br>
   <input type="radio" id="" name="role2" value="role2">
-  <label for="role2">role2</label><br>
+  <label for="role2">role2</label><br> -->
   <!-- <input type="radio" id="" name="role3" value="role3">
   <label for="role2">role2</label><br> -->
 
