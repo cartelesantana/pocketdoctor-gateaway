@@ -1,7 +1,13 @@
+<?php
+if(isset($_GET['id'])){
+    $id=$_GET['id'];
+    echo  "<input type='hidden' value='$id' id='UseId'>";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+      <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Ocean Innovation Center</title>
@@ -12,14 +18,15 @@
     ?>
 
   </head>
-
   <body>
+
     <!-- ======= Header ======= -->
 <?php include ('basicStructures/head.php');?>
     <!-- End Top Bar -->
 
     <?php  include('basicStructures/secondTopBar.php')?>
-    
+
+
     <!-- End Header -->
     <!-- End Header -->
     <!-- ======= Hero Section ======= -->
@@ -38,7 +45,6 @@
             <div class="d-flex justify-content-center justify-content-lg-start">
               <a href="Forms/signup.php" class="btn-get-started">JOIN US</a>
               <pre>  </pre> 
-              <a href="Forms/login.php" class="btn-get-started">Log In</a>
             </div>
             
           </div>
@@ -93,8 +99,7 @@
                 <h7
                   >in our incubation process, we provide start-ups and
                   early-storage businesses with the support and ressource the
-                  don't have access to</h7
-                >
+                  don't have access to</h7>
               </div>
             </div>
             <!--End Icon Box -->
@@ -472,6 +477,7 @@
                   <div class='post-meta'>
                     <p class='post-author'>author: $result[author]</p>
                   </div>
+                  
                   </div>
                           ";
                           $i--;
@@ -510,5 +516,32 @@
     ></a>
     <div id="preloader"></div>
   </body>
+  <script type="text/javascript">
+      Uid=document.getElementById('UseId').value;
+      if(Uid != null){
+          let timerInterval
+          Swal.fire({
+              title: 'sign up success',
+              html: 'you will get connect in <b></b> milliseconds.',
+              timer: 1000,
+              timerProgressBar: true,
+              didOpen: () => {
+                  Swal.showLoading()
+                  const b = Swal.getHtmlContainer().querySelector('b')
+                  timerInterval = setInterval(() => {
+                      b.textContent = Swal.getTimerLeft()
+                  }, 100)
+              },
+              willClose: () => {
+                  clearInterval(timerInterval)
+              }
+          }).then((result) => {
+              /* Read more about handling dismissals below */
+              if (result.dismiss === Swal.DismissReason.timer) {
+                  console.log('I was closed by the timer')
+              }
+          })
+      }
+  </script>
 </html>
 
