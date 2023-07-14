@@ -3,8 +3,7 @@ $servername = "localhost";
 $DbUser = "root";
 $DbPwd = "";
 $dbname = "oicData";
-$username=$_POST['Username'];
-$password=$_POST['password'];
+
 //Coding For Signup
 
 if(isset($_POST['signUp'])) {
@@ -17,7 +16,7 @@ if(isset($_POST['signUp'])) {
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }else{
-            $query = "select * from users where username=  '$username'";
+            $query = "select * from users where username=  '$userName'";
             $user = $conn->query($query);
             if ($user) {
                 if (mysqli_num_rows($user) > 0) {
@@ -35,14 +34,13 @@ if(isset($_POST['signUp'])) {
                         $stmt->bind_param('isss', $passID, $userName, $email, $securePwd);
                         $stmt->execute();
                         $stmt->close();
-                        echo "<script>alert('User registration successful, go to log In');
-                         window.location.replace('../Forms/login.php');
-                        </script>";
+                        header("location:redirectSignUp.php?name=$userName");
                     } else {
                         echo "<script>alert('passwords did not match');
                     window.location.replace('../Forms/signup.php');
                     </script>";
                     }
+
                 }
             }
         }
@@ -50,6 +48,7 @@ if(isset($_POST['signUp'])) {
     }catch (Exception $e){
         echo $e->getMessage();
     }
+
     } else{
     echo "invalid SignUp";
 }
