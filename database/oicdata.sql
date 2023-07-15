@@ -50,12 +50,16 @@ INSERT INTO blog (`id`, `subject`, `link`, `author`, `picture`) VALUES
 --
 
 CREATE TABLE forum (
-  userForumId int(11) NOT NULL,
-  firstName varchar(50) DEFAULT NULL,
-  secName varchar(50) DEFAULT NULL,
-  email varchar(50) DEFAULT NULL,
-  phone int(11) DEFAULT NULL,
-  role char(50) DEFAULT NULL
+  userForumId varchar(50) NOT NULL,
+  firstName varchar(50),
+  secName varchar(50),
+  email varchar(50),
+  whatsapp varchar(20),
+  phoneNumber int(11),
+  twitter varchar(20),
+  facebook varchar(20),
+  linkedIn varchar(20),
+  how char(20)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -148,9 +152,6 @@ ALTER TABLE admin
 --
 -- AUTO_INCREMENT pour la table `forum`
 --
-ALTER TABLE forum
-  MODIFY userForumId int(11) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT pour la table `members`
 --

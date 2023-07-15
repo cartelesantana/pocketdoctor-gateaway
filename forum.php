@@ -50,7 +50,7 @@
         </li>
 
         <li><a href="index.php#services">Activities</a></li>
-        <li><a href="#">Forum</a></li>
+        <li><a href="forum.php">Forum</a></li>
         <li><a href="index.php#contact">Contact</a></li>
         <li><a href="Forms/adminLogin.php">Admin</a></li>
       </ul>
@@ -93,18 +93,6 @@
           </div>
 
           <h2 class="title">Forum Details</h2>
-
-          <!-- <div class="meta-top">
-            <ul>
-              <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John
-                  Doe</a></li>
-              <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time
-                    datetime="2020-01-01">Jan 1, 2022</time></a></li>
-              <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12
-                  Comments</a></li>
-            </ul>
-          </div>End meta top -->
-
           <div class="content">
             <p>
               Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et
@@ -135,54 +123,15 @@
               quod et tempora deleniti error rerum nihil tempora.
             </p>
 
-            <!-- <h3>Et quae iure vel ut odit alias.</h3>
-            <p>
-              Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio
-              provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam
-              perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui.
-              Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione
-              aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus
-              aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
-              Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam
-              voluptatem voluptatem accusamus mollitia aut atque aut.
-            </p> -->
-            <!-- <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt=""> -->
-
-            <!-- <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
-            <p>
-              Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id
-              praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non
-              placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
-              Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex
-              libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
-            </p>
-            <p>
-              Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit
-              eaque mollitia nisi asperiores est veniam.
-            </p> -->
 
           </div><!-- End post content -->
 
-          <!-- <div class="meta-bottom">
-            <i class="bi bi-folder"></i>
-            <ul class="cats">
-              <li><a href="#">Business</a></li>
-            </ul>
-
-            <i class="bi bi-tags"></i>
-            <ul class="tags">
-              <li><a href="#">Creative</a></li>
-              <li><a href="#">Tips</a></li>
-              <li><a href="#">Marketing</a></li>
-            </ul>
-          </div>
-
-        </article>End blog post -->
+          
 
         <div class="post-author d-flex align-items-center">
           <img src="assets/img/blog/blog-author.jpg" class="rounded-circle flex-shrink-0" alt="">
           <div>
-            <h4>author name//to do</h4>
+            <h4>Host: Jacques BONJAWO</h4>
             <div class="social-links">
               <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
               <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
@@ -202,45 +151,51 @@
 
             <h4 style="color:black;">Register to the Forum</h4>
 
-            <form action="">
+            <form action="Controls/ForumRegisterControl.php" method="post">
               <div class="row ">
                 <div class="col-md-6 form-group">
-                  <input name="name" type="text" class="form-control" placeholder="fisrtName*">
+                  <input name="firstname" type="text" class="form-control" placeholder="fisrtName*" required>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input name="text" type="text" class="form-control" placeholder="SecondName*">
+                  <input name="secondname" type="text" class="form-control" placeholder="SecondName*" required>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input name="website" type="number" class="form-control" placeholder="first number(whatsapp)*" required>
+                  <input name="whatsapp" type="number" class="form-control" placeholder="first number(whatsapp)*" required>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input name="website" type="number" class="form-control" placeholder="second number">
+                  <input name="phone" type="number" class="form-control" placeholder="second number">
                 </div>
                 <div class="row col-lg-12">
 
                   <div class="col-md-6 form-group">
-                    <input name="website" type="email" class="form-control" placeholder="email*" required>
+                    <input name="email" type="email" class="form-control" placeholder="email*" required>
                   </div>
                   <div class="col-md-6 form-group">
-                    <input name="website" type="text" class="form-control" placeholder="twitter account*" Required>
+                    <input name="twitter" type="text" class="form-control" placeholder="twitter account*" Required>
                   </div>
                 </div>
                 <div class="row">
                 <div class="col-md-6 form-group">
-                    <input name="website" type="email" class="form-control" placeholder="facebook account">
+                    <input name="facebook" type="text" class="form-control" placeholder="facebook account">
                   </div>
                   <div class="col-md-6 form-group">
-                    <input name="website" type="text" class="form-control" placeholder="linkedIn account">
+                    <input name="linkedin" type="text" class="form-control" placeholder="linkedIn account">
                   </div>
                 </div>
                 <div class="row">
                 <div class="col form-group">
-                    <textarea name="website" type="text" class="form-control" placeholder="how did you know about the forum?"></textarea>
-                  </div>
+                <label for="howDid">how did you know about our Forum??</label>
+                    <select name="howDid" style="border-radius:10px;outline: none; border:none; font-weight:800;background: #061b63;color:white;font-size: 20px">
+                          <option  value="twitter">Twitter</option>
+                          <option value="instagram">Instagram</option>
+                          <option value="facebook">Facebook</option>
+                          <option value="website">Our Website</option>
+                    </select>
+              </div>
                 </div>
-                <button type="submit" class="btn btn-primary">REGISTER!</button>
+                <button type="submit" name="ForumReg"class="btn btn-primary">REGISTER!</button>
 
             </form>
 

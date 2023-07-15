@@ -7,7 +7,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Skydash Admin</title>
+    <title>O I C - Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../vendors/feather/feather.css">
     <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
@@ -18,7 +18,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="../../css/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="../../images/favicon.png" />
+    <link rel="shortcut icon" href="../../images/logo.PNG" />
 </head>
 
 <body>
@@ -26,31 +26,9 @@
     <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-            <a class="navbar-brand brand-logo mr-5" href="../../index-2.html"><img src="../../images/logo.svg" class="mr-2" alt="logo"/></a>
-            <a class="navbar-brand brand-logo-mini" href="../../index-2.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="../../images/logo.PNG" class="mr-2" alt="logo"/></a>
         </div>
-        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-                <span class="icon-menu"></span>
-            </button>
-            <ul class="navbar-nav navbar-nav-right">
-                <li class="nav-item nav-profile dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                        <img src="../../images/faces/face28.jpg" alt="profile"/>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-                        <a class="dropdown-item">
-                            <i class="ti-settings text-primary"></i>
-                            Settings
-                        </a>
-                        <a class="dropdown-item">
-                            <i class="ti-power-off text-primary"></i>
-                            Logout
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
@@ -79,7 +57,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Registered Members For the Forum</h4>
                                 <div class="table-responsive pt-3">
-                                    <table class="table table-bordered">
+                                    <table class="table table-bordered" style="text-align: center;">
                                         <thead>
                                         <tr>
                                             <th>
@@ -89,47 +67,152 @@
                                                 First name
                                             </th>
                                             <th>
-                                                Product
+                                                Second Name
                                             </th>
                                             <th>
-                                                Amount
+                                                Email
                                             </th>
                                             <th>
-                                                Deadline
+                                                whatsapp number
+                                            </th>
+                                            <th>
+                                                second number
+                                            </th>
+                                            <th>
+                                                Twitter account 
+                                            </th>
+                                            <th>
+                                                facebook account 
+                                            </th>
+                                            <th>
+                                                LinkedIn account 
+                                            </th>
+                                            <th>
+                                                how did?? 
                                             </th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr class="table-info">
-                                            <td>
-                                                1
-                                            </td>
-                                            <td>
-                                                Herman Beck
-                                            </td>
-                                            <td>
-                                                Photoshop
-                                            </td>
-                                            <td>
-                                                $ 77.99
-                                            </td>
-                                            <td>
-                                                May 15, 2015
-                                            </td>
-                                        </tr>
+                                        <?php
+                                        $servername = "localhost";
+                                        $DbUser = "root";
+                                        $DbPwd = "";
+                                        $dbname = "oicData";
+                                        try {
+                                            $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
+                                            $ForumQuery="select * from forum";
+                                            $requestForum=$conn->query($ForumQuery);
+                                            if(mysqli_num_rows($requestForum)>0){
+                                                $i=mysqli_num_rows($requestForum);
+                                                $ForumData=$requestForum->fetch_assoc();
+                                                while ($i > 0){
+                                                    echo "
+                                        <tr class='table-info'>
+                                            <td>$ForumData[userForumId]</td>
+                                            <td>$ForumData[firstName]</td>
+                                            <td>$ForumData[secName]</td>
+                                            <td>$ForumData[email]</td>
+                                            <td>$ForumData[whatsapp]</td>
+                                            <td>$ForumData[phoneNumber]</td>
+                                            <td>$ForumData[twitter]</td>
+                                            <td>$ForumData[facebook]</td>
+                                            <td>$ForumData[linkedIn]</td>
+                                            <td>$ForumData[how]</td>
 
+                                        </tr>
+                                    ";$i--;
+                                                }
+                                }
+                                $conn->close();
+                                        }catch (Exception $e){
+                                            echo $e->getMessage();
+                                        }
+                                        ?>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
-                    </div><br/><br/>
-                    <div class="col-lg-6 grid-margin stretch-card">
+                    </div>
+                    <div class="col-lg-12 stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Registered Members For the Forum</h4>
+                                <div class="table-responsive pt-3">
+                                    <table class="table table-bordered" style="text-align: center;">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                id
+                                            </th>
+                                            <th>
+                                                profile
+                                            </th>
+                                            <th>
+                                                name
+                                            </th>
+                                            <th>
+                                                mail
+                                            </th>
+                                            <th>
+                                                role
+                                            </th>
+                                            <th>
+                                                facebook
+                                            </th>
+                                            <th>
+                                                twitter
+                                            </th>
+                                            <th>
+                                                linkedIn
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+                                        $servername = "localhost";
+                                        $DbUser = "root";
+                                        $DbPwd = "";
+                                        $dbname = "oicData";
+                                        try {
+                                            $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
+                                            $MembersQuery="select * from members";
+                                            $requestMembers=$conn->query($MembersQuery);
+                                            if(mysqli_num_rows($requestMembers)>0){
+                                                $i=mysqli_num_rows($requestMembers);
+                                                $MemberData=$requestMembers->fetch_assoc();
+                                                while ($i > 0){
+                                                    echo "
+                                        <tr class='table-info'>
+                                            <td>$MemberData[userId]</td>
+                                            <td><img src='../../../$MemberData[useProfile]' style='height:40px;weight:60px;border-radius:100%;'/></td>
+                                            <td>$MemberData[userName]</td>
+                                            <td>$MemberData[userMail]</td>
+                                            <td>$MemberData[role]</td>
+                                            <td>$MemberData[fblink]</td>
+                                            <td>$MemberData[twtlink]</td>
+                                            <td>$MemberData[Lkdlink]</td>
+
+                                        </tr>
+                                    ";$i--;
+                                                }
+                                }
+                                        }catch (Exception $e){
+                                            echo $e->getMessage();
+                                        }
+                                        ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 stretch-card">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">List Of Visitors</h4>
-                                <div class="table-responsive">
-                                    <table class="table" style="text-align: center;">
+                                <div class="table-responsive pt-3">
+                                    <table class="table table-bordered" style="text-align: center;">
                                         <thead>
                                         <tr>
                                             <th>id</th>
@@ -152,7 +235,7 @@
                                                 $UserData=$requestUser->fetch_assoc();
                                                 while ($i > 0){
                                                     echo "
-                                        <tr>
+                                        <tr class='table-info'>
                                             <td>$UserData[id]</td>
                                             <td>$UserData[username]</td>
                                             <td>$UserData[email]</td>
@@ -170,36 +253,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Members Of O.I.C</h4>
-
-                                <div class="table-responsive">
-                                    <table class="table table-hover">
-                                        <thead>
-                                        <tr>
-                                            <th>User</th>
-                                            <th>Product</th>
-                                            <th>Sale</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Jacob</td>
-                                            <td>Photoshop</td>
-                                            <td class="text-danger"> 28.76% <i class="ti-arrow-down"></i></td>
-                                            <td><label class="badge badge-danger">Pending</label></td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <!-- content-wrapper ends -->
