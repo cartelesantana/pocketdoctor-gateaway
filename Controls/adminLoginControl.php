@@ -14,7 +14,8 @@
                 die("Connection failed: " . $conn->connect_error);
             }else{
                 session_start();
-
+                $_SESSION=$_POST;
+                session_write_close();
                 $query="select * from admin where admname=  '$adminName'";
                 $user=$conn->query($query);
                 if($user){
@@ -22,7 +23,8 @@
                         $result = $user -> fetch_assoc();
                         if($password == $result['AdmPassword']){
                             $AdmId=$result['AdmId'];
-                            header("location:../Admin/index.php?id=$AdmId");
+                            header("location:../Admin/index.php?id=$_POST");
+                            exit;
                         }else{
                             echo "
                                 <script> 
