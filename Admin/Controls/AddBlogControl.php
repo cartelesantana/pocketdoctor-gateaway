@@ -43,7 +43,7 @@ if(isset($_POST['AddBlog'])){
             $stmt->execute();
             $stmt->close();
                 if ($stmt) {
-                echo "File has been uploaded";
+                header("location: ../index.php?success=Ok");
                 };
                 
             }

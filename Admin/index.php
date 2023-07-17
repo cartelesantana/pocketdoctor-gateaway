@@ -1,3 +1,8 @@
+<?php
+    if(isset($_GET['success'])){
+       echo "<input type='hidden' id='success' value='$_GET[success]'>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +24,9 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="images/logo.PNG" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
   <div class="container-scroller">
@@ -150,7 +158,20 @@
   <!-- Custom js for this page-->
   <script src="js/jquery.cookie.js" type="text/javascript"></script>
   <script src="js/dashboard.js"></script>
-  <script src="js/Chart.roundedBarCharts.js"></script>
+  <script src="js/Chart.roundedBarCharts.js">
+
+  <script>
+      mess=document.getElementById('success').value;
+      if(mess != null){
+          Swal.fire({
+              position: 'top-end',
+              icon: 'success',
+              title: 'Your work has been saved',
+              showConfirmButton: false,
+              timer: 1500
+          })
+      }
+  </script>
   <!-- End custom js for this page-->
 </body>
 

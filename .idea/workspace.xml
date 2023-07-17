@@ -20,24 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Admin/Controls/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controls/ForumRegisterControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controls/ReviewSaveControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/1648047023728.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kribi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogImages/OicPost.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogImages/cncc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogImages/istockphoto-1145990155-612x612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MemberProfiles/minepat.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controls/signUpControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/signUpControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/secondTopBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/secondTopBar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/oicdata.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/oicdata.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +78,8 @@
       <workItem from="1689165526867" duration="6247000" />
       <workItem from="1689232607856" duration="18033000" />
       <workItem from="1689322245077" duration="14588000" />
-      <workItem from="1689584058874" duration="9203000" />
+      <workItem from="1689584058874" duration="11945000" />
+      <workItem from="1689597482363" duration="201000" />
     </task>
     <servers />
   </component>

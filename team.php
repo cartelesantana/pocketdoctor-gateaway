@@ -98,10 +98,7 @@
                       }else{
                           $query="select * from members";
                           $member=$conn->query($query);
-                          $result=$member->fetch_assoc();
-                          if($result){
-                              $i = mysqli_num_rows($member);
-                              while ($i>0){
+                              while ($result=$member->fetch_assoc()){
                                   echo "
                         <div class='col-md-2 col-md-2' style='text-align: center'>
                   <img src=$result[useProfile] class='img-fluid' style='width: 90%;height:230px'/>
@@ -114,17 +111,13 @@
                     <a href=https://www.$result[twtlink]><i class='bi bi-twitter'></i></a>
                     <a href=https://www.$result[Lkdlink]><i class='bi bi-linkedin'></i></a>
                 </p>
-                 
-               
-                  </div>
+             </div>
                           ";
-                                  $i--;
+
                               }
-                          }
                       }
                   }catch (Exception $e){ print $e->getMessage();}
                   ?>
-
               </div>
           </div>
       </section>

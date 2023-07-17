@@ -104,8 +104,8 @@
                                             $requestForum=$conn->query($ForumQuery);
                                             if(mysqli_num_rows($requestForum)>0){
                                                 $i=mysqli_num_rows($requestForum);
-                                                $ForumData=$requestForum->fetch_assoc();
-                                                while ($i > 0){
+
+                                                while ($ForumData=$requestForum->fetch_assoc()){
                                                     echo "
                                         <tr class='table-info'>
                                             <td>$ForumData[userForumId]</td>
@@ -120,7 +120,7 @@
                                             <td>$ForumData[how]</td>
 
                                         </tr>
-                                    ";$i--;
+                                    ";
                                                 }
                                 }
                                 $conn->close();
@@ -180,8 +180,7 @@
                                             $requestMembers=$conn->query($MembersQuery);
                                             if(mysqli_num_rows($requestMembers)>0){
                                                 $i=mysqli_num_rows($requestMembers);
-                                                $MemberData=$requestMembers->fetch_assoc();
-                                                while ($i > 0){
+                                                while ($MemberData=$requestMembers->fetch_assoc()){
                                                     echo "
                                         <tr class='table-info'>
                                             <td>$MemberData[userId]</td>
@@ -194,7 +193,7 @@
                                             <td>$MemberData[Lkdlink]</td>
 
                                         </tr>
-                                    ";$i--;
+                                    ";
                                                 }
                                 }
                                         }catch (Exception $e){
@@ -231,16 +230,15 @@
                                             $UserQuery="select * from users";
                                             $requestUser=$conn->query($UserQuery);
                                             if(mysqli_num_rows($requestUser)>0){
-                                                $i=10;
-                                                $UserData=$requestUser->fetch_assoc();
-                                                while ($i > 0){
+                                                ;
+                                                while ($UserData=$requestUser->fetch_assoc()){
                                                     echo "
                                         <tr class='table-info'>
                                             <td>$UserData[id]</td>
                                             <td>$UserData[username]</td>
                                             <td>$UserData[email]</td>
                                         </tr>
-                                    ";$i--;
+                                    ";
                                                 }
                                 }
                                         }catch (Exception $e){
@@ -278,9 +276,8 @@
                                             $UserQuery="select * from reviews order by senderName desc";
                                             $requestUser=$conn->query($UserQuery);
                                             if(mysqli_num_rows($requestUser)>0){
-                                                $i=5;
-                                                $UserData=$requestUser->fetch_assoc();
-                                                while ($i > 0){
+
+                                                while ($UserData=$requestUser->fetch_assoc()){
                                                     echo "
                                         <tr class='table-info'>
                                             <td>$UserData[senderName]</td>
@@ -288,7 +285,7 @@
                                             <td>$UserData[subject]</td>
                                             <td>$UserData[text]</td>
                                         </tr>
-                                    ";$i--;
+                                    ";
                                                 }
                                             }
                                         }catch (Exception $e){

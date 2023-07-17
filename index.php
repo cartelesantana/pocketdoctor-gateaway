@@ -442,27 +442,26 @@ if(isset($_GET['status'])){
                   }else{
                       $query="select * from blog";
                       $blog=$conn->query($query);
-                      $result=$blog->fetch_assoc();
-                      if($result){
-                        $i = mysqli_num_rows($blog);
-                        while ($i>0){
-                          echo "
-                        <div class='col-md-3 col-md-' >
+                      while ($result=$blog->fetch_assoc()){
+                          echo " 
+ <div class='col-md-3 col-md-' >
                   <img src=$result[picture] class='img-fluid' style='width: 100%;height:230px'/>
                 <p class='post-category'>subject: $result[subject]</p>
 
                 <h2 class='title'>
                   <a href=https://www.$result[link]>link: $result[link] </a>
                 </h2>
+                <h2 class='title'>
+                  <a href=$result[picture]>image </a>
+                </h2>
+                
                   <div class='post-meta'>
                     <p class='post-author'>author: $result[author]</p>
                   </div>
-                  
                   </div>
                           ";
-                          $i--;
                         }
-                       }
+
                       }
                 }catch (Exception $e){ print $e->getMessage();}
               ?>
@@ -501,9 +500,11 @@ if(isset($_GET['status'])){
       if(Ustat != null){
 
           Swal.fire({
+              position: 'top-end',
               icon: 'success',
-              title: 'Home',
-              text: 'WelCome Back!',
+              title: 'Welcome',
+              showConfirmButton: false,
+              timer: 1500
           })
       }
   </script>
