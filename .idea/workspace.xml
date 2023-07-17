@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controls/redirectSignUp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controls/AddUserControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddUserControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/pages/tables/basic-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controls/signUpControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/signUpControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicStructures/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/links.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,8 @@
       <workItem from="1689064663382" duration="22539000" />
       <workItem from="1689165526867" duration="6247000" />
       <workItem from="1689232607856" duration="18033000" />
-      <workItem from="1689322245077" duration="14402000" />
+      <workItem from="1689322245077" duration="14588000" />
+      <workItem from="1689584058874" duration="427000" />
     </task>
     <servers />
   </component>
@@ -114,9 +110,9 @@
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
     <state x="2033" y="-183" width="585" height="936" key="find.popup/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689343804901" />
-    <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup" timestamp="1689336693285">
+    <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup" timestamp="1689584385988">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
-    <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689336693285" />
+    <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689584385988" />
   </component>
 </project>
