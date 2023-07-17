@@ -53,7 +53,7 @@
 
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
+                action="Controls/ReviewSaveControl.php"
                 method="post"
                 role="form"
                 class="php-email-form"
@@ -95,6 +95,7 @@
                     class="form-control"
                     name="message"
                     rows="7"
+                    maxlength="200"
                     placeholder="Message"
                     required
                   ></textarea>
@@ -107,7 +108,7 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" name="senMessage">Send Message</button>
                 </div>
               </form>
             </div>

@@ -34,7 +34,7 @@ if(isset($_POST['signUp'])) {
                         $stmt->bind_param('isss', $passID, $userName, $email, $securePwd);
                         $stmt->execute();
                         $stmt->close();
-                        header("location:redirectSignUp.php?name=$userName");
+                        header("location:../index.php?status=registered");
                     } else {
                         echo "<script>alert('passwords did not match');
                     window.location.replace('../Forms/signup.php');

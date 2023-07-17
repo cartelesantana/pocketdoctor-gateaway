@@ -1,7 +1,7 @@
 <?php
-if(isset($_GET['id'])){
-    $id=$_GET['id'];
-    echo  "<input type='hidden' value='$id' id='UseId'>";
+if(isset($_GET['status'])){
+    $status=$_GET['status'];
+    echo  "<input type='hidden' value='$status' id='status'>";
 }
 ?>
 <!DOCTYPE html>
@@ -124,6 +124,7 @@ if(isset($_GET['id'])){
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-people"></i></div>
                 <h4 class="title">EXPERTISE AND ADVICE</h4>
+                  <h7>we offer expert advice to young entrepreneurs willing to dive into the professional world and build a great career in the digital field</h7>
               </div>
             </div>
             <!--End Icon Box -->
@@ -136,6 +137,7 @@ if(isset($_GET['id'])){
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-person-lines-fill"></i></div>
                 <h4 class="title">CO-WORKING SPACE</h4>
+                  <h7>we provide comfortable working spaces where people meet and share ideas on any future project they have</h7>
               </div>
             </div>
             <!--End Icon Box -->
@@ -495,29 +497,13 @@ if(isset($_GET['id'])){
     <div id="preloader"></div>
   </body>
   <script type="text/javascript">
-      Uid=document.getElementById('UseId').value;
-      if(Uid != null){
-          let timerInterval
+      Ustat=document.getElementById('status').value;
+      if(Ustat != null){
+
           Swal.fire({
-              title: 'sign up success',
-              html: 'you will get connect in <b></b> milliseconds.',
-              timer: 1000,
-              timerProgressBar: true,
-              didOpen: () => {
-                  Swal.showLoading()
-                  const b = Swal.getHtmlContainer().querySelector('b')
-                  timerInterval = setInterval(() => {
-                      b.textContent = Swal.getTimerLeft()
-                  }, 100)
-              },
-              willClose: () => {
-                  clearInterval(timerInterval)
-              }
-          }).then((result) => {
-              /* Read more about handling dismissals below */
-              if (result.dismiss === Swal.DismissReason.timer) {
-                  console.log('I was closed by the timer')
-              }
+              icon: 'success',
+              title: 'Home',
+              text: 'WelCome Back!',
           })
       }
   </script>

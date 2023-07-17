@@ -20,8 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Admin/Controls/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controls/ForumRegisterControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controls/ReviewSaveControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/1648047023728.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kribi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/top.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controls/signUpControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/signUpControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicStructures/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicStructures/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicStructures/secondTopBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/secondTopBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/oicdata.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/oicdata.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +86,7 @@
       <workItem from="1689165526867" duration="6247000" />
       <workItem from="1689232607856" duration="18033000" />
       <workItem from="1689322245077" duration="14588000" />
-      <workItem from="1689584058874" duration="427000" />
+      <workItem from="1689584058874" duration="9203000" />
     </task>
     <servers />
   </component>
@@ -94,14 +109,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1772" y="-28" key="MergeDialog" timestamp="1689592645148">
+      <screen x="1366" y="-240" width="1920" height="1050" />
+    </state>
+    <state x="1772" y="-28" key="MergeDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689592645148" />
+    <state x="1964" y="46" key="MultipleFileMergeDialog" timestamp="1689592653658">
+      <screen x="1366" y="-240" width="1920" height="1050" />
+    </state>
+    <state x="1964" y="46" key="MultipleFileMergeDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689592653658" />
     <state x="2138" y="8" key="NewPhpClassDialog" timestamp="1689065000699">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
     <state x="2138" y="8" key="NewPhpClassDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689065000699" />
-    <state x="2160" y="208" key="NewPhpFileDialog" timestamp="1689323935391">
+    <state x="2160" y="208" key="NewPhpFileDialog" timestamp="1689585748397">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
-    <state x="2160" y="208" key="NewPhpFileDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689323935390" />
+    <state x="2160" y="208" key="NewPhpFileDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689585748397" />
     <state x="1827" y="-71" key="SettingsEditor" timestamp="1689064934209">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>

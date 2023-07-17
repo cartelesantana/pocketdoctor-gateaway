@@ -21,6 +21,7 @@
             <pre>  </pre>
             <i class="bi bi-person-circle">
                   <?php
+                  /*
                     if(isset($_GET['id'])){
                         $servername = "localhost";
                         $DbUser = "root";
@@ -46,7 +47,7 @@
                             echo "you have an error of type ".$e->getMessage();
                         }
                     }else echo " ";
-                  ?>
+                  */?>
               </i>
           </a>
         </div>
