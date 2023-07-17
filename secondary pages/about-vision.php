@@ -66,7 +66,7 @@
           <ul>
             <li><a href="../index.php">Home</a></li>
             <li class="dropdown">
-              <a href="../../#about"
+              <a href="../#about"
                 ><span>About</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
