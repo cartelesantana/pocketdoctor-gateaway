@@ -27,7 +27,7 @@
                             echo "
                                 <script> 
                                     alert('Login Error');
-                                    window.location.replace('../Forms/login.php');
+                                    window.location.replace('../Forms/adminlogin.php');
                                 </script>
                             ";
                             $conn->close();
