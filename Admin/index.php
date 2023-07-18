@@ -1,7 +1,11 @@
 <?php
     if(isset($_GET['success'])){
-       echo "<input type='hidden' id='success' value='$_GET[success]'>";
+  echo "<input type='hidden' id='success' value='$_GET[success]'>";
     }
+    if(!isset($_GET['id'])){
+     header("location: ../Forms/adminLogin.php");
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +33,7 @@
     <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
+
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -58,6 +63,7 @@
       </div>
     </nav>
     <!-- partial -->
+    
     <div class="container-fluid page-body-wrapper">
       
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -132,8 +138,7 @@
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2023. Ocean Innovation Center. All rights reserved.</span>
           </div>
         </footer>
-
-      </div>
+       </div>
 
     </div>
 
@@ -158,21 +163,20 @@
   <!-- Custom js for this page-->
   <script src="js/jquery.cookie.js" type="text/javascript"></script>
   <script src="js/dashboard.js"></script>
-  <script src="js/Chart.roundedBarCharts.js">
+  <script src="js/Chart.roundedBarCharts.js"></script>
 
   <script>
-      mess=document.getElementById('success').value;
+      var mess=document.getElementById('success').value;
       if(mess != null){
           Swal.fire({
               position: 'top-end',
               icon: 'success',
               title: 'Your work has been saved',
               showConfirmButton: false,
-              timer: 1500
-          })
+              timer: 1500,
+          });
       }
-  </script>
-  <!-- End custom js for this page-->
+</script>
 </body>
 
 

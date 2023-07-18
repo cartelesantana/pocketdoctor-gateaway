@@ -43,12 +43,11 @@ if(isset($_POST['AddBlog'])){
             $stmt->execute();
             $stmt->close();
                 if ($stmt) {
-                header("location: ../index.php?success=Ok");
+                header("location: ../index.php?id");
                 };
                 
             }
         }catch(Exception $e){
-           
         }
 }else{
     echo "Error: Ivalid Route";
