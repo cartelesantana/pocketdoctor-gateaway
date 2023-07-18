@@ -177,9 +177,7 @@ if(isset($_GET['status'])){
               <div
                 class="d-flex justify-content-center justify-content-lg-start"
               >
-                <a href="#about" class="btn-get-started"
-                  >Learn More<i class="bi bi-arrow-right"></i
-                ></a>
+              
               </div>
               -->
             </div>
