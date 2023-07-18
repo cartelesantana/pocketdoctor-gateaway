@@ -53,6 +53,7 @@
 
             <div class="col-lg-8">
               <form
+                onsubmit="sendEmail(); reset(); return false;"
                 action="Controls/ReviewSaveControl.php"
                 method="post"
                 role="form"
@@ -96,10 +97,11 @@
                     name="message"
                     rows="7"
                     maxlength="200"
-                    placeholder="Message"
+                    placeholder="How Can We Help You ???"
                     required
                   ></textarea>
                 </div>
+                  <!--
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
@@ -107,6 +109,7 @@
                     Your message has been sent. Thank you!
                   </div>
                 </div>
+                -->
                 <div class="text-center">
                   <button type="submit" name="senMessage">Send Message</button>
                 </div>

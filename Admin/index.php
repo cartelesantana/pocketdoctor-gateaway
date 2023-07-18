@@ -2,7 +2,7 @@
     if(isset($_GET['success'])){
   echo "<input type='hidden' id='success' value='$_GET[success]'>";
     }
-    if(!isset($_GET['id'])){
+    if(!isset($_GET['txt'])){
      header("location: ../Forms/adminLogin.php");
     }
 
@@ -40,27 +40,7 @@
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="images/logo.PNG" class="mr-2" alt="logo"/></a>
       </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-          <span class="icon-menu"></span>
-        </button>
-        <ul class="navbar-nav navbar-nav-right">
-          
-          <li class="nav-item nav-profile dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown" style="color: red; font-weight: 800;">
-              Action
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a class="d" href="Controls/logout.php" style="text-decoration:none; color:red;font-weight: 600; font-size:13px;text-align:center;">
-                <i class="ti-power-off text-primary"></i>
-                Go Back to Website
-              </a>
-            </div>
-          </li>
-        
-        </ul>
-        
-      </div>
+     <?php  include('navStructures/ProfileSection.php')?>
     </nav>
     <!-- partial -->
     
@@ -68,61 +48,11 @@
       
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.php">
-              <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Manage Posts</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/Post.php">All Posts</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/addPost.php">Add A Post</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Blogs</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/AddBlog.php">Add A blog</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Tables</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.php">Basic table</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
-              <span class="menu-title">User</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/addUser.php"> Add Member </a></li>
-              </ul>
-            </div>
-          </li>
+            <?php include('navStructures/dashboardBtn.php')?>
+            <?php include('navStructures/makePostBtn.php')?>
+            <?php include('navStructures/blogBtn.php')?>
+            <?php include('navStructures/tableBtn.php')?>
+            <?php include('navStructures/memberBtn.php')?>
         </ul>
       </nav>
       <!-- partial -->

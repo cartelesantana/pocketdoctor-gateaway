@@ -40,7 +40,7 @@
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../../index.php">
+                    <a class="nav-link" href="../../index.php?txt=C@B@A@">
                         <i class="icon-grid menu-icon"></i>
                         <span class="menu-title">Dashboard</span>
                     </a>
@@ -137,7 +137,7 @@
                     <div class="col-lg-12 stretch-card">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Registered Members For the Forum</h4>
+                                <h4 class="card-title">Member Of OIC</h4>
                                 <div class="table-responsive pt-3">
                                     <table class="table table-bordered" style="text-align: center;">
                                         <thead>
@@ -227,7 +227,7 @@
                                         $dbname = "oicData";
                                         try {
                                             $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
-                                            $UserQuery="select * from users";
+                                            $UserQuery="select * from users order by id Desc Limit 10";
                                             $requestUser=$conn->query($UserQuery);
                                             if(mysqli_num_rows($requestUser)>0){
                                                 ;
@@ -273,7 +273,7 @@
                                         $dbname = "oicData";
                                         try {
                                             $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
-                                            $UserQuery="select * from reviews order by senderName desc";
+                                            $UserQuery="select * from reviews order by senderName desc Limit 10";
                                             $requestUser=$conn->query($UserQuery);
                                             if(mysqli_num_rows($requestUser)>0){
 

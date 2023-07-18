@@ -40,7 +40,7 @@ if(isset($_POST['AddBlog'])){
             $stmt->execute();
             $stmt->close();
                 if ($stmt) {
-                header("location: ../index.php?id");
+                header("location: ../index.php?txt=C@B@A@");
                 };
                 
             }

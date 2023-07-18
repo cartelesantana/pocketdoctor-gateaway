@@ -173,13 +173,13 @@ if(isset($_GET['status'])){
                 transformation and in this regard, we conduct three main
                 missions:
               </p>
+                <!--
               <div
                 class="d-flex justify-content-center justify-content-lg-start"
               >
-                <a href="#about" class="btn-get-started"
-                  >Learn More<i class="bi bi-arrow-right"></i
-                ></a>
+              
               </div>
+              -->
             </div>
             <div class="col-lg-6">
               <div class="content ps-0 ps-lg-5">
@@ -440,7 +440,7 @@ if(isset($_GET['status'])){
                   if ($conn->connect_error) {
                       die("Connection failed: " . $conn->connect_error);
                   }else{
-                      $query="select * from blog";
+                      $query="select * from blog order by id Desc LIMIT 4";
                       $blog=$conn->query($query);
                       while ($result=$blog->fetch_assoc()){
                           echo " 
@@ -459,6 +459,7 @@ if(isset($_GET['status'])){
                     <p class='post-author'>author: $result[author]</p>
                   </div>
                   </div>
+             
                           ";
                         }
 
@@ -468,10 +469,7 @@ if(isset($_GET['status'])){
 
                 </div>
             </div>
-            <!--
-            
--->
-            </div>
+     </div>
             <!-- End post list item -->
           </div>
           <!-- End recent posts list -->
@@ -494,19 +492,20 @@ if(isset($_GET['status'])){
       ><i class="bi bi-arrow-up-short"></i
     ></a>
     <div id="preloader"></div>
-  </body>
-  <script type="text/javascript">
-      Ustat=document.getElementById('status').value;
-      if(Ustat != null){
+    <script type="text/javascript">
+        Ustat=document.getElementById('status').value;
+        if(Ustat != null){
 
-          Swal.fire({
-              position: 'top-end',
-              icon: 'success',
-              title: 'Welcome',
-              showConfirmButton: false,
-              timer: 1500
-          })
-      }
-  </script>
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Welcome',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+    </script>
+  </body>
+
 </html>
 
