@@ -46,7 +46,7 @@ if(isset($_POST['AddMbr'])){
             $stmt->close();
             if ($stmt) {
                 header("location: ../index.php?txt=C@B@A@");
-            };
+            }else{echo"error adding member";}
 
         }
     }catch(Exception $e){

@@ -65,7 +65,7 @@
               </ul>
             </li>
 
-            <li><a href="../../#services">Activities</a></li>
+            <li><a href="../../#services">Our Courses</a></li>
             <li><a href="../../forum.php">Forum</a></li>
             <li><a href="../../#contact">Contact</a></li>
             <li><a href="../../Forms/adminLogin.php">Admin</a></li>
@@ -116,7 +116,7 @@
                     <div class="pricing-item">
                       <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
                       <h4>
-                        Description Here !!
+                      This specialization introduces general standards of good reasoning and offers tools to improve your critical thinking skills. 
                     </h4>
                     </div>
                 </div>
@@ -125,14 +125,14 @@
                 <div class="pricing-item">
                     <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
 
-                      <h4>The whole formation last for three months</h4>
+                      <h4>The Logical Thinking formation goes from 1 to 3 Months.<br> During those 3 months of training we will cover all the aspects of logical thinking</h4>
                 </div>
             </div>
             <div class="col-xl-4 col-md-6">
                 <div class="pricing-item">
                     <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
-
-                      <h4><sup>$</sup>0<span> / month</span></h4>
+                    <h4>The registration for this formation is 50.000Fcfa</h4>
+                          <h4>And the whole formation is 150.000Fcfa</h4>
                 </div>
             </div>
           </div>
@@ -140,7 +140,6 @@
 
       </div>
     </section>
-   
   </main><!-- End #main -->
 <!--fouter-->
 <?php 

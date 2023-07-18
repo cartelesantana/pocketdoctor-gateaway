@@ -32,7 +32,7 @@
               </ul>
             </li>
 
-            <li><a href="#services">Activities</a></li>
+            <li><a href="#services">Our Courses</a></li>
             <li><a href="forum.php">Forum</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="Forms/adminLogin.php">Admin</a></li>

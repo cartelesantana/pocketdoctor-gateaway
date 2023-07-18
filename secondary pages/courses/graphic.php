@@ -65,7 +65,7 @@
               </ul>
             </li>
 
-            <li><a href="../../#services">Activities</a></li>
+            <li><a href="../../#services">Our Courses</a></li>
             <li><a href="../../forum.php">Forum</a></li>
             <li><a href="../../#contact">Contact</a></li>
             <li><a href="../../Forms/adminLogin.php">Admin</a></li>
@@ -116,24 +116,28 @@
                     <div class="pricing-item">
                       <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
                       <h4>
-                        description here !!1
+                      New to the web design world? This intensive course takes graphic designers deep into the design and UI & UX pillars of the web
                       </h4>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-md-6">
-                <div class="pricing-item">
-                    <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
+            <div class="pricing-item">
+                          <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
 
-                      <h4>The whole formation last for three months</h4>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="pricing-item">
-                    <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
+                          <h4>The formation goes from 1 to 6 months</h4><br>
+                          <h4>The  duration of the formation depends on if you want and accelerated training or a full training</h4>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6">
+                      <div class="pricing-item">
+                          <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
 
-                      <h4><sup>$</sup>0<span> / month</span></h4>
-                </div>
+                          <h4>The registration for this formation is 50.000Fcfa</h4>
+                          <h4>And the whole formation is 200.000Fcfa</h4>
+                          <h4>NB: <small>it can be based on the trainning plan you choose</small></h4>
+                      </div>
+                  </div>
             </div>
           </div>
         </div>

@@ -67,7 +67,7 @@
               </ul>
             </li>
 
-            <li><a href="../../#services">Activities</a></li>
+            <li><a href="../../#services">Our Courses</a></li>
             <li><a href="../../forum.php">Forum</a></li>
             <li><a href="../../#contact">Contact</a></li>
             <li><a href="../../Forms/adminLogin.php">Admin</a></li>
@@ -116,7 +116,7 @@
                     <div class="pricing-item">
                       <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
                       <h4>
-                        enter description over here!!
+                      Students should learn the basic components that make a PC, including basic hardware and software, as well as how to safely handle computer components and how software and hardware combine to create a functioning, useful PC
                       </h4>
                     </div>
                 </div>
@@ -125,14 +125,14 @@
                 <div class="pricing-item">
                     <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
 
-                      <h4>The whole formation last for three months</h4>
+                      <h4>This formation goes from 1 to 6 months.<br> the duration can be less than Six months based on the students level</h4>
                 </div>
             </div>
             <div class="col-xl-4 col-md-6">
                 <div class="pricing-item">
                     <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
-
-                      <h4><sup>$</sup>0<span> / month</span></h4>
+                    <br>
+                    <h4>The registration for this formation is 10.000Fcfa.<br>The whole formation is 100.000Fcfa</h4>
                 </div>
             </div>
           </div>
