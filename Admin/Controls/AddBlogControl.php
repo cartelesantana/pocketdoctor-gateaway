@@ -5,9 +5,6 @@ if(isset($_POST['AddBlog'])){
         $DbUser = "root";
         $DbPwd = "";
         $dbname = "oicData";
-        
-
-        
         try{
             $conn = new mysqli($servername, $DbUser, $DbPwd, $dbname);
 
