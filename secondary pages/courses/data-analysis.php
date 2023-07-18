@@ -25,9 +25,6 @@
   <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="../../assets/css/main.css" rel="stylesheet">
-  <?php
-        include ('../../basicStructures/links.php');
-    ?>
 
 </head>
 
@@ -37,12 +34,8 @@
     <!-- End Top Bar -->
 <!--header starts-->
 <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="index.php" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1>
             <span
               ><img src="../../assets/img/logo.PNG" alt="Logo" class="logoIMG"
@@ -86,6 +79,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
+        <!--
       <nav>
         <div class="container">
           <ol>
@@ -94,7 +88,8 @@
           </ol>
         </div>
       </nav>
-      <div class="page-header d-flex align-items-center" style="background-image: url('');">
+      -->
+      <div class="page-header d-flex align-items-center">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -111,40 +106,40 @@
       
     </div><!-- End Breadcrumbs -->
 
-    <section class="sample-page">
-      <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <div class="col-xl-4 ">
-                <div class="col-lg-4">
-                    <div class="pricing-item">
-                      <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
-                      <h4>
-                        This course will help you to differentiate between the roles of Data Analysts,
-                        Data Scientists, and Data Engineers. You will familiarize yourself with the data ecosystem, alongside Databases,
-                        Data Warehouses, Data Marts, Data Lakes and Data Pipelines
-                      </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="pricing-item">
-                    <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
+      <section class="sample-page">
+          <div class="container" data-aos="fade-up">
+              <div class="row gy-4">
+                  <div class="col-xl-4 ">
+                      <div class="col-lg-4">
+                          <div class="pricing-item">
+                              <h2>DESCRIPTION <i class="bi bi-arrow-down-circle-fill"></i></h2>
+                              <h4>
+                                  This course will help you to differentiate between the roles of Data Analysts,
+                                  Data Scientists, and Data Engineers. You will familiarize yourself with the data ecosystem, alongside Databases,
+                                  Data Warehouses, Data Marts, Data Lakes and Data Pipelines
+                              </h4>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6">
+                      <div class="pricing-item">
+                          <h2>DURATION <i class="bi bi-calendar3-week-fill"></i></h2>
 
-                      <h4>The whole formation last for three months</h4>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="pricing-item">
-                    <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
+                          <h4>The whole formation last for three months</h4>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6">
+                      <div class="pricing-item">
+                          <h2>PRICING  <i class="bi bi-cash-coin"></i></h2>
 
-                      <h4><sup>$</sup>0<span> / month</span></h4>
-                </div>
-            </div>
+                          <h4><sup>$</sup>0<span> / month</span></h4>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
 
-      </div>
-    </section>
+          </div>
+      </section>
    
   </main><!-- End #main -->
   <!--footer starts her -->

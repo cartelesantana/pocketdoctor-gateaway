@@ -20,16 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0fdc411-f180-4b60-aed5-e2508f66c754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlogImages/OicPost.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogImages/cncc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogImages/istockphoto-1145990155-612x612.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemberProfiles/minepat.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/Controls/forceLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/ProfileSection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/blogBtn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/dashboardBtn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/makePostBtn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/memberBtn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin/navStructures/tableBtn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogImages/microsoft.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddBlogControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/Controls/AddUserControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controls/AddUserControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/pages/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/pages/tables/basic-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controls/adminLoginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controls/adminLoginControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicStructures/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/basicStructures/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary pages/courses/data-analysis.php" beforeDir="false" afterPath="$PROJECT_DIR$/secondary pages/courses/data-analysis.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +48,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +96,8 @@
       <workItem from="1689232607856" duration="18033000" />
       <workItem from="1689322245077" duration="14588000" />
       <workItem from="1689584058874" duration="11945000" />
-      <workItem from="1689597482363" duration="201000" />
+      <workItem from="1689597482363" duration="411000" />
+      <workItem from="1689664719109" duration="13756000" />
     </task>
     <servers />
   </component>
@@ -114,10 +132,11 @@
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
     <state x="2138" y="8" key="NewPhpClassDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689065000699" />
-    <state x="2160" y="208" key="NewPhpFileDialog" timestamp="1689585748397">
-      <screen x="1366" y="-240" width="1920" height="1050" />
+    <state x="2160" y="139" key="NewPhpFileDialog" timestamp="1689676335271">
+      <screen x="1366" y="-309" width="1920" height="1050" />
     </state>
     <state x="2160" y="208" key="NewPhpFileDialog/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689585748397" />
+    <state x="2160" y="139" key="NewPhpFileDialog/0.0.1366.738/1366.-309.1920.1050@1366.-309.1920.1050" timestamp="1689676335271" />
     <state x="1827" y="-71" key="SettingsEditor" timestamp="1689064934209">
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
@@ -126,9 +145,10 @@
       <screen x="1366" y="-240" width="1920" height="1050" />
     </state>
     <state x="2033" y="-183" width="585" height="936" key="find.popup/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689343804901" />
-    <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup" timestamp="1689584385988">
-      <screen x="1366" y="-240" width="1920" height="1050" />
+    <state x="1989" y="-82" width="672" height="678" key="search.everywhere.popup" timestamp="1689679785284">
+      <screen x="1366" y="-309" width="1920" height="1050" />
     </state>
     <state x="1989" y="-13" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-240.1920.1050@1366.-240.1920.1050" timestamp="1689584385988" />
+    <state x="1989" y="-82" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-309.1920.1050@1366.-309.1920.1050" timestamp="1689679785284" />
   </component>
 </project>

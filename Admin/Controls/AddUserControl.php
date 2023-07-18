@@ -45,7 +45,7 @@ if(isset($_POST['AddMbr'])){
             $stmt->execute();
             $stmt->close();
             if ($stmt) {
-                echo "File has been uploaded";
+                header("location: ../index.php?txt=C@B@A@");
             };
 
         }

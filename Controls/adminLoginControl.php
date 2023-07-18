@@ -23,7 +23,7 @@
                         $result = $user -> fetch_assoc();
                         if($password == $result['AdmPassword']){
                             $AdmId=$result['AdmId'];
-                            header("location:../Admin/index.php?id=$_POST");
+                            header("location:../Admin/index.php?txt=C@B@A@");
                             exit;
                         }else{
                             echo "
