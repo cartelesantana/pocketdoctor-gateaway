@@ -1,0 +1,60 @@
+version: '3.9'
+
+services:
+
+  # ── API Gateway ─────────────────────────────────────────────────────────────
+  gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pocketdoctor-gateway
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      # Redis bağlantısı — Docker network içinde servis adıyla erişim
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      # Gemini API key — .env dosyasından okunur (asla kaynak koda yazılmaz!)
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      # CORS: Frontend'in URL'ini buraya yaz (üretimde değiştir)
+      CORS_ORIGIN: ${CORS_ORIGIN:-*}
+    depends_on:
+      redis:
+        condition: service_healthy # Redis hazır olmadan gateway başlamasın
+    networks:
+      - pocketdoctor-net
+    healthcheck:
+      test: [ "CMD", "wget", "-qO-", "http://localhost:3000/health" ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # ── Redis ────────────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: pocketdoctor-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --save 60 1 --loglevel warning
+    volumes:
+      - redis-data:/data
+    networks:
+      - pocketdoctor-net
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+networks:
+  pocketdoctor-net:
+    driver: bridge
+
+volumes:
+  redis-data:
