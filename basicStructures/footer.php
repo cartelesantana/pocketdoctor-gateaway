@@ -5,7 +5,7 @@
         <div class="row gy-4">
           <div class="col-lg-6 col-md-12 footer-info">
             <a href="index.php" class="logo d-flex align-items-center">
-              <span>Ocean Innovation Center</span>
+                <span>Ocean</span> <span>Innovation</span> <span>Center</span>
             </a>
             <p>Concieve - Believe - Achieve</p>
             <div class="social-links d-flex mt-4">

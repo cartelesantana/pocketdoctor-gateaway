@@ -1176,7 +1176,7 @@ section {
   box-shadow: 3px 3px 20px -20px rgba(11, 58, 99, 0.849);
   background: var(--color-primary);
   height: 300px;
-  width: 400px;
+  width: 350px;
   text-align: center;
   position: relative;
   border-radius: 15px;
@@ -1266,13 +1266,16 @@ section {
   .pricing .featured {
     transform: scale(1.15);
   }
+  .pricing-item{
+    width: 350px;
+  }
 }
 
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
 .recent-posts article {
-  box-shadow: 2 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 4px 16px 0 #555;
   background-color: #fff;
   padding: 30px;
   height: 100%;
@@ -2300,7 +2303,11 @@ i{
 .oicPub{
   border-radius: 20px;
 }
-
+@media (min-width: 1280px) {
+  .oiPub {
+    width: 300px;
+  }
+}
 /*strart reistration form design*/
 
 

@@ -100,12 +100,12 @@
                           $member=$conn->query($query);
                               while ($result=$member->fetch_assoc()){
                                   echo "
-                        <div class='col-md-2 col-md-2' style='text-align: center'>
-                  <img src=$result[useProfile] class='img-fluid' style='width: 90%;height:230px'/>
+                        <div class='col-md-4 col-md-4' style='text-align: center;margin-left: 8px;height: fit-content;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'>
+                  <img src=$result[useProfile] class='img-fluid' style='width: 230px;height:230px; border-radius: 100%;background-color: red'/>
                     
                 <p class='post-category'><b>$result[userName]</b></p>
                 <p class='post-category'><b>$result[role]</b></p>
-                <p class='post-category'><a href=https://www.google.com/$result[userMail]>$result[userMail]</a></p>
+                <p class='post-category'>$result[bio]</p>
                 <p>
                     <a href=https://www.$result[fblink]><i class='bi bi-facebook'></i></a>
                     <a href=https://www.$result[twtlink]><i class='bi bi-twitter'></i></a>
